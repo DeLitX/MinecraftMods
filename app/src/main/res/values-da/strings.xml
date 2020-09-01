@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="all">Alle</string>
+    <string name="back">" Tilbage"</string>
+    <string name="choose_maps">" VÆLG KORT, DU VIL SPILE"</string>
+    <string name="choose_mods">" VÆLG MODS TIL DIT SPIL"</string>
+    <string name="choose_skins">" VÆLG SKINS TIL DIN KARAKTER"</string>
+    <string name="Continue">" Blive ved"</string>
+    <string name="download">HENT</string>
+    <string name="downloading">" DOWNLOAD"</string>
+    <string name="dragon_mods">" Dragon mods"</string>
+    <string name="famous_mods">FAMOUS MODS</string>
+    <string name="info_step_four_one">" 4. DET NEDLASTEDE KORT VIRKES I VERDENS SEKTION."</string>
+    <string name="info_step_four_three">" Nyd SPILET :)"</string>
+    <string name="info_step_four_two">" HVIS DU INSTALLEREDE MODS, vises de i den tilsvarende sektion i KORTINDSTILLINGERNE."</string>
+    <string name="info_step_one">" 1.VÆLG DITT FAVORITKORT ELLER MOD"</string>
+    <string name="info_step_one_header">Jumo Legue</string>
+    <string name="info_step_one_text">Dette er et simpelt parkour-kort, der overvinder forhindringer ved hjælp af kommandoblokke og skal besejre den endelige boss saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_three">3.Klik på INSTALLATIONSKNAPPEN, MINECRAFT ÅBNER OG IMPORT I SPILET BEGYNDER. Vent på importen til slutningen</string>
+    <string name="info_step_two">2.KLIK DOWNLOAD-KNAPPEN, og vent på, at kortet eller moden lægges på enheden.</string>
+    <string name="info_title_text">Instruktioner til brug af applikationen</string>
+    <string name="install">" INSTALLERE"</string>
+    <string name="maps">Kort</string>
+    <string name="maps_and_skins">KORT OG HUD</string>
+    <string name="mods">Mods</string>
+    <string name="privacy_policy">" <u> Privatlivspolitik </u> &amp; <u> Brugsbetingelser </u>"</string>
+    <string name="skins">Skins</string>
+    <string name="start_playing">BEGYND AT SPILE MED UNIKKE MODS, KORT OG HUD NU!</string>
+    <string name="subscription_description">Når tilbuddet udløber, bliver abonnementet automatisk betalt, og du bliver opkrævet $ 30 en gang om ugen, indtil du annullerer. Du kan til enhver tid afmelde dig. Se vores fortrolighedspolitik og brugsbetingelser.</string>
+    <string name="title_favourite">Favorit</string>
+    <string name="title_info">Info</string>
+    <string name="title_maps">" Kort"</string>
+    <string name="title_mods">Mods</string>
+    <string name="title_skins">Skins</string>
+    <string name="unlimited_downloads">" UBEGRÆNSET DOWNLOADS"</string>
+</resources>

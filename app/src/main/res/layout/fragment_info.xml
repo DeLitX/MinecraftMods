@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/margin_border"
+    tools:context=".ui.info.InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.Header"
+            android:text="@string/info_title_text"/>
+
+        <TextView
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_one" />
+
+        <ImageView
+            android:id="@+id/minecraft"
+            android:layout_width="match_parent"
+            android:maxHeight="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:outlineProvider="background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/minecraft_logo"/>
+
+        <TextView
+            style="@style/Text.Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_one_header" />
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_one_text" />
+
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_two" />
+
+        <include layout="@layout/button_not_activated"/>
+        <include layout="@layout/button_activated"/>
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_three" />
+
+        <ImageView
+            android:id="@+id/import_image"
+            android:layout_width="match_parent"
+            android:maxHeight="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:outlineProvider="background"
+            android:scaleType="fitXY"
+            android:src="@drawable/import_image"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="@drawable/fully_rounded_corners_dark"
+            android:textColor="#ffffff"
+            android:text="@string/install"
+            android:textSize="@dimen/info_text_size" />
+
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_four_one" />
+
+        <ImageView
+            android:id="@+id/map_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:outlineProvider="background"
+            android:scaleType="fitXY"
+            android:src="@drawable/map_list"/>
+
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_four_two" />
+
+        <ImageView
+            android:id="@+id/resource_packs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:maxHeight="250dp"
+            android:outlineProvider="background"
+            android:scaleType="fitXY"
+            android:src="@drawable/resource_packs"/>
+
+        <TextView
+            android:layout_marginVertical="@dimen/margin_border_a_little"
+            style="@style/Text.InfoHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_step_four_three" />
+
+        <ImageView
+            android:id="@+id/enjoy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="250dp"
+            android:background="@drawable/rounded_corners"
+            android:outlineProvider="background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/enjoy_church"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

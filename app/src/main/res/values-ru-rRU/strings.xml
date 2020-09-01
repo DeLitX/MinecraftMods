@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моды Майнкрат</string>
+    <string name="title_mods">Моды</string>
+    <string name="title_info">Информация</string>
+    <string name="title_skins">Скины</string>
+    <string name="info_title_text">Инструкции по использованию приложения</string>
+    <string name="info_step_one">1.ВЫБЕРИТЕ ВАШ ЛЮБИМЫЙ МОД ИЛИ КАРТУ</string>
+    <string name="info_step_one_header">Лига прыжков</string>
+    <string name="info_step_one_text">Это простая паркур карты в который Вы должны преодолевать препятствия ....</string>
+    <string name="info_step_three">3. НАЖМИТЕ КНОПКУ «УСТАНОВИТЬ», MINECRAFT откроется, и начнется импорт в игру. ПОДОЖДИТЕ ЗАВЕРШЕНИЯ ИМПОРТА</string>
+    <string name="info_step_four_one">4. ЗАГРУЖЕННАЯ КАРТА ПОЯВИТСЯ В РАЗДЕЛЕ МИРОВ.</string>
+    <string name="info_step_four_two">ЕСЛИ ВЫ УСТАНОВИЛИ МОДЫ, ОНИ БУДУТ ПОКАЗАТЬСЯ В СООТВЕТСТВУЮЩЕМУ РАЗДЕЛУ НАСТРОЕК КАРТЫ.</string>
+    <string name="back">Назад</string>
+    <string name="downloading">DOWNLOADING</string>
+    <string name="install">УСТАНОВИТЬ</string>
+    <string name="mods">Моды</string>
+    <string name="maps">Карты</string>
+    <string name="skins">Скины</string>
+    <string name="Continue">Продолжить</string>
+    <string name="famous_mods">ИЗВЕСТНЫЕ МОДЫ</string>
+    <string name="maps_and_skins">КАРТЫ И СКИНЫ</string>
+    <string name="choose_mods">ВЫБЕРИТЕ МОДЫ ДЛЯ ИГРЫ</string>
+    <string name="choose_skins">ВЫБЕРИТЕ СКИН ДЛЯ ВАШЕГО ХАРАКТЕРА</string>
+    <string name="start_playing">НАЧНИТЕ ИГРАТЬ С УНИКАЛЬНЫМИ МОДАМИ, КАРТАМИ И СКИНАМИ ПРЯМО СЕЙЧАС!</string>
+    <string name="dragon_mods">Модификации драконов</string>
+    <string name="privacy_policy"><u> Политика конфиденциальности </u> &amp; <u> Условия использования </u></string>
+    <string name="subscription_description">По истечении срока действия предложения подписка будет автоматически оплачена, и с вас будет взиматься 30 долларов США один раз в неделю, пока вы не отмените ее. Вы можете отписаться в любое время. Ознакомьтесь с нашей политикой конфиденциальности и правилами пользования.</string>
+    <string name="all">Все</string>
+    <string name="choose_maps">ВЫБЕРИТЕ КАРТЫ, ЧТО ХОТИТЕ ИГРАТЬ</string>
+    <string name="download">СКАЧАТЬ</string>
+    <string name="info_step_two">2. НАЖМИТЕ КНОПКУ «ЗАГРУЗИТЬ» и Дождитесь загрузки карты или мода на устройство.</string>
+    <string name="title_favourite">Любимые</string>
+    <string name="title_maps">Карты</string>
+    <string name="info_step_four_three">НАСЛАЖДАЙСЯ ИГРОЙ :)</string>
+    <string name="unlimited_downloads">НЕОГРАНИЧЕННЫЕ ЗАГРУЗКИ</string>
+</resources>

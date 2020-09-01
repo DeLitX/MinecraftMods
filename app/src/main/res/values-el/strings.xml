@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Πολιτική απορρήτου </u> &amp; <u> Όροι Χρήσης </u></string>
+    <string name="info_step_one">1. ΕΠΙΛΕΞΤΕ ΤΗΝ ΑΓΑΠΗΜΕΝΗ ΚΑΡΤΑ Ή ΤΟ MOD</string>
+    <string name="info_step_two">2. Κάντε κλικ στο κουμπί ΛΗΨΗ ΚΑΙ ΠΕΡΙΜΕΝΕΤΕ ΤΗΝ ΚΑΡΤΑ Ή ΤΟ MOD για ΦΟΡΤΩΣΗ ΣΤΗ ΣΥΣΚΕΥΗ.</string>
+    <string name="info_step_three">3. Κάντε κλικ στο κουμπί ΕΓΚΑΤΑΣΤΑΣΗΣ, το MINECRAFT θα ανοίξει και θα εισαχθεί στο παιχνίδι θα ξεκινήσει. ΠΕΡΙΜΕΝΤΕ ΤΗΝ ΕΙΣΑΓΩΓΗ ΠΡΟΣ ΤΕΛΟΣ</string>
+    <string name="info_step_four_one">4. Ο ΧΑΡΤΗΣ ΤΟΥ ΛΗΨΗΣ ΠΟΥ ΘΑ ΛΕΙΤΟΥΡΓΕΙ ΣΤΟ ΤΟΜΕΑ ΤΟΥ ΚΟΣΜΟΥ.</string>
+    <string name="subscription_description">Μετά τη λήξη της προσφοράς, η συνδρομή θα πληρωθεί αυτόματα και θα χρεωθείτε 30 $ μία φορά την εβδομάδα έως ότου ακυρώσετε. Μπορείτε να διαγραφείτε ανά πάσα στιγμή. Δείτε την πολιτική απορρήτου μας και τους όρους χρήσης.</string>
+    <string name="all">Ολα</string>
+    <string name="back">Πίσω</string>
+    <string name="choose_maps">ΕΠΙΛΕΞΤΕ ΧΑΡΤΕΣ ΠΟΥ ΘΕΛΕΤΕ ΝΑ ΠΑΙΞΕΤΕ</string>
+    <string name="choose_mods">ΕΠΙΛΕΞΤΕ ΛΕΙΤΟΥΡΓΙΑ ΓΙΑ ΤΟ ΠΑΙΧΝΙΔΙ ΣΑΣ</string>
+    <string name="choose_skins">ΕΠΙΛΕΞΤΕ ΔΕΡΜΑ ΓΙΑ ΤΟΝ ΧΑΡΑΚΤΗΡΑ ΣΑΣ</string>
+    <string name="Continue">Να συνεχίσει</string>
+    <string name="download">ΚΑΤΕΒΑΣΤΕ</string>
+    <string name="downloading">ΚΑΤΕΒΑΣΤΕ</string>
+    <string name="dragon_mods">Λειτουργίες Dragon</string>
+    <string name="info_step_four_three">ΑΠΟΛΑΥΣΕ ΤΟ ΠΑΙΧΝΙΔΙ :)</string>
+    <string name="famous_mods">FAMOUS MODS</string>
+    <string name="title_favourite">Αγαπημένη</string>
+    <string name="info_step_four_two">ΕΑΝ ΕΓΚΑΤΑΣΤΑΣΕΤΕ ΤΑ ΜΟΝΤΕΛΑ, ΘΑ ΘΑ ΕΜΦΑΝΙΣΟΥΝ ΣΤΟ ΑΝΤΙΣΤΟΙΧΝΟ ΤΜΗΜΑ ΣΤΙΣ ΡΥΘΜΙΣΕΙΣ ΧΑΡΤΗΣ.</string>
+    <string name="title_info">Πληροφορίες</string>
+    <string name="install">ΕΓΚΑΘΙΣΤΩ</string>
+    <string name="info_title_text">Οδηγίες για τη χρήση της εφαρμογής</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Χάρτες</string>
+    <string name="title_maps">Χάρτες</string>
+    <string name="maps_and_skins">ΧΑΡΤΕΣ ΚΑΙ ΔΕΡΜΑ</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Δέρματα</string>
+    <string name="start_playing">Ξεκινήστε να παίζετε με ΜΟΝΑΔΙΚΑ MODS, ΧΑΡΤΕΣ ΚΑΙ ΔΕΡΜΑΤΑ ΤΩΡΑ!</string>
+    <string name="skins">Δέρματα</string>
+    <string name="info_step_one_text">Αυτός είναι ένας απλός χάρτης parkour που ξεπερνά τα εμπόδια χρησιμοποιώντας μπλοκ εντολών και πρέπει να νικήσει τον τελικό αφεντικό saasasasasasasasasasdasdasdasdasda</string>
+    <string name="unlimited_downloads">ΑΠΕΡΙΟΡΙΣΤΑ ΛΗΨΕΙΣ</string>
+</resources>

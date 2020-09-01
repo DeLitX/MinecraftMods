@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods Minecraft</string>
+    <string name="privacy_policy"><u> Politique de confidentialité </u> &amp; <u> Conditions d\'utilisation </u></string>
+    <string name="info_step_one">1. CHOISISSEZ VOTRE CARTE OU MOD PRÉFÉRÉE</string>
+    <string name="info_step_two">2.Cliquez sur le bouton de téléchargement et attendez que la carte ou le module se charge sur l\'appareil.</string>
+    <string name="info_step_three">3.CLIQUEZ SUR LE BOUTON INSTALLER, MINECRAFT S\'OUVRIRA ET L\'IMPORTATION DANS LE JEU COMMENCERA. ATTENDRE LA FIN DE L\'IMPORTATION</string>
+    <string name="info_step_four_one">4.LA CARTE TÉLÉCHARGÉE APPARAÎTRA DANS LA SECTION MONDES.</string>
+    <string name="subscription_description">Après l\'expiration de l\'offre, l\'abonnement sera automatiquement payé et vous serez facturé 30 $ une fois par semaine jusqu\'à ce que vous l\'annuliez. Vous pouvez vous désinscrire à tout moment. Consultez notre politique de confidentialité et nos conditions d\'utilisation.</string>
+    <string name="all">Tous</string>
+    <string name="back">Arrière</string>
+    <string name="choose_maps">CHOISISSEZ LES CARTES QUE VOUS VOULEZ JOUER</string>
+    <string name="choose_mods">CHOISISSEZ LES MODS POUR VOTRE JEU</string>
+    <string name="choose_skins">CHOISISSEZ DES PEAUX POUR VOTRE PERSONNAGE</string>
+    <string name="Continue">Continuer</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="downloading">DOWNLOADING</string>
+    <string name="dragon_mods">Mods de dragon</string>
+    <string name="info_step_four_three">APPRÉCIER LE JEU :)</string>
+    <string name="famous_mods">MODS CÉLÈBRES</string>
+    <string name="title_favourite">Préféré</string>
+    <string name="info_step_four_two">SI VOUS AVEZ INSTALLÉ DES MODS, ILS APPARAÎTRONT DANS LA SECTION CORRESPONDANTE DES PARAMÈTRES DE LA CARTE.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INSTALLER</string>
+    <string name="info_title_text">Instructions d\'utilisation de l\'application</string>
+    <string name="info_step_one_header">Ligue de saut</string>
+    <string name="maps">Plans</string>
+    <string name="title_maps">Plans</string>
+    <string name="maps_and_skins">CARTES ET PEAUX</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Skins</string>
+    <string name="skins">Skins</string>
+    <string name="start_playing">COMMENCEZ À JOUER AVEC DES MODS, DES CARTES ET DES SKINS UNIQUES DÈS MAINTENANT!</string>
+    <string name="info_step_one_text">Il s\'agit d\'une simple carte de parkour qui surmonte les obstacles à l\'aide de blocs de commande et doit vaincre le boss final saasasasasasasasasasdasdasdasdasda</string>
+    <string name="unlimited_downloads">TÉLÉCHARGEMENTS ILLIMITÉS</string>
+</resources>

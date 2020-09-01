@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:textColor">@color/grayish</item>
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <style name="Text.Header">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Text.InfoHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorInfoOrange</item>
+        <item name="android:textSize">@dimen/info_text_size</item>
+    </style>
+
+    <style name="Text.WelcomeHeader">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+</resources>

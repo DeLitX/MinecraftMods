@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecrafti modifikatsioonid</string>
+    <string name="unlimited_downloads">PIIRAMATUD LAADIMISED</string>
+    <string name="title_mods">" Modifikatsioonid"</string>
+    <string name="title_info">Info</string>
+    <string name="title_maps">Kaardid</string>
+    <string name="title_skins">Nahad</string>
+    <string name="info_title_text">Juhised rakenduse kasutamiseks</string>
+    <string name="info_step_one">1. VALI LEMMIKKAART VÕI MOD</string>
+    <string name="info_step_one_header">Hüpeliiga</string>
+    <string name="info_step_one_text">See on lihtne parkouri kaart, mis ületab takistused käsuplokide abil ja peab alistama lõpliku ülemuse saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_three">3. KLÕPSAKE PAIGALDAMISNUPpu, MINECRAFT AVATAB JA ALGAB IMPORDI MÄNGU. OOTA IMPORDI LÕPPEMIST</string>
+    <string name="info_step_four_one">4. ALLALAADITUD KAART ilmub MAAILMADE OSA.</string>
+    <string name="info_step_four_two">KUI PAIGALDADE MODEID, NAD MÄRGITAKSE KAARDI Sättete vastavas osas.</string>
+    <string name="info_step_four_three">NAUDI MÄNGU ​​:)</string>
+    <string name="back">tagasi</string>
+    <string name="downloading">DOWNLOADING</string>
+    <string name="install">PAIGALDA</string>
+    <string name="mods">Modifikatsioonid</string>
+    <string name="maps">Kaardid</string>
+    <string name="skins">Nahad</string>
+    <string name="Continue">Jätka</string>
+    <string name="famous_mods">KUULSAD MODID</string>
+    <string name="maps_and_skins">KAARDID JA NAHAD</string>
+    <string name="choose_mods">VALI OMA MÄNGU ​​REŽIIMID</string>
+    <string name="choose_skins">VALI NAHAD OMA ISELOOMULE</string>
+    <string name="start_playing">HAKKE MÄNGUMA KOHE KOHE KOOSTAMATUTE MODE, KAARTIDE JA NAHADEGA!</string>
+    <string name="dragon_mods">Draakoni modifikatsioonid</string>
+    <string name="privacy_policy"><u> Privaatsuseeskirjad </u> &amp; <u> Kasutustingimused </u></string>
+    <string name="subscription_description">Pärast pakkumise aegumist muutub tellimus automaatselt tasuliseks ja te tühistamiseni võetakse kord nädalas 30 dollarit. Tellimuse saate igal ajal tühistada. Vaadake meie privaatsuspoliitikat ja kasutustingimusi.</string>
+    <string name="all">Kõik</string>
+    <string name="choose_maps">VALI KAARDID, MIDA SOOVID MÄNGIDA</string>
+    <string name="download">LAE ALLA</string>
+    <string name="info_step_two">2. KLÕPSAKE ALLALAADIMISE NUPP PALJU ja oodake, kuni kaart või mod laaditakse seadmesse.</string>
+    <string name="title_favourite">Lemmik</string>
+</resources>

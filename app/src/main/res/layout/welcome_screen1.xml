@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/margin_border">
+
+    <TextView
+        style="@style/Text.WelcomeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_border"
+        android:gravity="center_vertical"
+        android:text="@string/famous_mods"
+        app:drawableStartCompat="@drawable/ic_menu"
+        app:drawableTint="@color/colorPrimaryDark" />
+
+    <TextView
+        style="@style/Text.WelcomeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_border"
+        android:gravity="center_vertical"
+        android:text="@string/maps_and_skins"
+        app:drawableStartCompat="@drawable/ic_skins"
+        app:drawableTint="@color/colorPrimaryDark" />
+
+    <TextView
+        style="@style/Text.WelcomeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_border"
+        android:gravity="center_vertical"
+        android:text="@string/unlimited_downloads"
+        app:drawableStartCompat="@drawable/ic_infinity"
+        app:drawableTint="@color/colorPrimaryDark" />
+</LinearLayout>

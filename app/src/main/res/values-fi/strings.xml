@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft-modit</string>
+    <string name="title_favourite">Suosikki</string>
+    <string name="title_maps">Kartat</string>
+    <string name="info_step_two">2.NAPAA LATAA-PAINIKETTA JA ODOTA KORTIN TAI MODIN LASEMISTA LAITTEESEEN.</string>
+    <string name="download">LADATA</string>
+    <string name="choose_maps">VALITSE KARTAT, JOTKA haluat pelata</string>
+    <string name="all">Kaikki</string>
+    <string name="subscription_description">Kun tarjous päättyy, tilaus maksetaan automaattisesti ja sinulta veloitetaan 30 dollaria kerran viikossa, kunnes peruutat. Voit peruuttaa tilauksen milloin tahansa. Katso tietosuojakäytäntömme ja käyttöehdot.</string>
+    <string name="privacy_policy"><u> tietosuojakäytäntö </u> &amp; <u> Käyttöehdot </u></string>
+    <string name="dragon_mods">Dragon-modit</string>
+    <string name="start_playing">Aloita pelaaminen ainutlaatuisilla modeilla, kartoilla ja ihoilla heti!</string>
+    <string name="choose_skins">VALITSE IHOT OMINAISUUDELLE</string>
+    <string name="choose_mods">VALITSE PELITILAT</string>
+    <string name="unlimited_downloads">RAJOITTAMATON LATAA</string>
+    <string name="maps_and_skins">KARTAT JA NAHAT</string>
+    <string name="famous_mods">FAMOUS MODS</string>
+    <string name="Continue">Jatkaa</string>
+    <string name="skins">Nahat</string>
+    <string name="maps">Kartat</string>
+    <string name="mods">Modit</string>
+    <string name="install">ASENTAA</string>
+    <string name="downloading">LATAA</string>
+    <string name="back">Takaisin</string>
+    <string name="info_step_four_three">Nauti pelistä :)</string>
+    <string name="info_step_four_two">JOS ASENNET MODIT, NÄKYMÄT KARTAN ASETUSTEN VASTAAVASSA OSAOSASSA.</string>
+    <string name="info_step_four_one">4.LADATTU KARTTA NÄYTTY MAAILMOITUSOSASSA.</string>
+    <string name="info_step_three">3.NAPAA ASENNUSPAINIKETTA, MINECRAFT AUKI JA TUONTI PELIEN ALKAA. ODOTA TUONTI LOPPUA</string>
+    <string name="info_step_one_text">Tämä on yksinkertainen parkour-kartta, joka voittaa esteet komentolohkojen avulla ja täytyy voittaa lopullinen pomo saasasasasasasasasdasdasdasdasdas</string>
+    <string name="info_step_one_header">Hyppyliiga</string>
+    <string name="info_step_one">1.Valitse suosikkikortti tai mode</string>
+    <string name="info_title_text">Ohjeet sovelluksen käyttöön</string>
+    <string name="title_skins">Nahat</string>
+    <string name="title_info">Tiedot</string>
+    <string name="title_mods">Modit</string>
+</resources>

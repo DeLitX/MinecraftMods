@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Modifiche di Minecraft</string>
+    <string name="privacy_policy"><u> Norme sulla privacy </u> &amp; <u> Termini di utilizzo </u></string>
+    <string name="info_step_one">1. SCEGLI LA TUA CARTA PREFERITA O MOD</string>
+    <string name="info_step_two">2.CLICCA IL PULSANTE DOWNLOAD E ATTENDI CHE LA SCHEDA O MOD DA CARICARE SUL DISPOSITIVO.</string>
+    <string name="info_step_three">3.FARE CLIC SUL PULSANTE DI INSTALLAZIONE, MINECRAFT SI APRIRÀ E L\'IMPORTAZIONE NEL GIOCO INIZIA ATTENDI LA FINE DELL\'IMPORTAZIONE</string>
+    <string name="info_step_four_one">4. LA MAPPA SCARICATA APPARIRÀ NELLA SEZIONE MONDI.</string>
+    <string name="subscription_description">Dopo la scadenza dell\'offerta, l\'abbonamento verrà automaticamente pagato e ti verranno addebitati $ 30 una volta alla settimana fino all\'annullamento. È possibile disdire in qualsiasi momento. Consulta la nostra politica sulla privacy e termini di utilizzo.</string>
+    <string name="all">Tutti</string>
+    <string name="back">Indietro</string>
+    <string name="choose_maps">SCEGLI LE MAPPE CHE VUOI GIOCARE</string>
+    <string name="choose_mods">SCEGLI MODS PER IL TUO GIOCO</string>
+    <string name="choose_skins">SCEGLI LE PELLI PER IL TUO PERSONAGGIO</string>
+    <string name="Continue">Continua</string>
+    <string name="download">SCARICA</string>
+    <string name="downloading">SCARICA</string>
+    <string name="dragon_mods">Modifiche del drago</string>
+    <string name="info_step_four_three">GODITI IL GIOCO :)</string>
+    <string name="famous_mods">MOD FAMOSI</string>
+    <string name="title_favourite">Preferito</string>
+    <string name="info_step_four_two">SE HAI INSTALLATO MODS, APPARIRANNO NELLA SEZIONE CORRISPONDENTE NELLE IMPOSTAZIONI DELLA MAPPA.</string>
+    <string name="title_info">Informazioni</string>
+    <string name="install">INSTALLARE</string>
+    <string name="info_title_text">Istruzioni per l\'utilizzo dell\'applicazione</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Mappe</string>
+    <string name="title_maps">Mappe</string>
+    <string name="maps_and_skins">MAPPE E PELLI</string>
+    <string name="title_mods">Mod</string>
+    <string name="mods">Mod</string>
+    <string name="title_skins">Pelli</string>
+    <string name="skins">Pelli</string>
+    <string name="start_playing">INIZIA SUBITO A GIOCARE CON MOD, MAPPE E SKINS UNICHE!</string>
+    <string name="info_step_one_text">Questa è una semplice mappa parkour che supera gli ostacoli usando i blocchi di comando e deve sconfiggere il boss finale saasasasasasasasasasdasdasdasdasda</string>
+    <string name="unlimited_downloads">DOWNLOAD ILLIMITATI</string>
+</resources>

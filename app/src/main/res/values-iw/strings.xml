@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">אופני Minecraft</string>
+    <string name="privacy_policy"><u> מדיניות פרטיות </u> &amp; <u> תנאי שימוש </u></string>
+    <string name="info_step_one">1. בחר את כרטיס האהוב שלך או MOD</string>
+    <string name="info_step_two">2. לחץ על כפתור ההורדה והמתן לכרטיס או למצב שיטען על המכשיר.</string>
+    <string name="info_step_three">3. לחץ על כפתור ההתקנה, MINECRAFT ייפתח וייבוא ​​למשחק יתחיל. המתן לייבוא ​​לסיום</string>
+    <string name="info_step_four_one">4. המפה שהורדת תופיע במדור העולם.</string>
+    <string name="subscription_description">לאחר פקיעת ההצעה המנוי ישולם אוטומטית ותחויב בסכום של 30 $ פעם בשבוע עד שתבטל. תוכל לבטל את הרישום בכל עת. ראה מדיניות הפרטיות ותנאי השימוש שלנו.</string>
+    <string name="all">את כל</string>
+    <string name="back">חזור</string>
+    <string name="choose_maps">מפות בחרות שאתה רוצה לשחק</string>
+    <string name="choose_mods">בחרו אפשרויות עבור המשחק שלכם</string>
+    <string name="choose_skins">בחר עורות עבור הדמות שלך</string>
+    <string name="Continue">לְהַמשִׁיך</string>
+    <string name="download">הורד</string>
+    <string name="downloading">הורדה</string>
+    <string name="dragon_mods">דרקון אופנות</string>
+    <string name="info_step_four_three">תהנה מהמשחק :)</string>
+    <string name="famous_mods">מצבים מפורסמים</string>
+    <string name="title_favourite">אהוב</string>
+    <string name="info_step_four_two">אם התקנת מצבים, הם יופיעו בסעיף המתאים בהגדרות המפה.</string>
+    <string name="title_info">מידע</string>
+    <string name="install">להתקין</string>
+    <string name="info_title_text">הוראות לשימוש באפליקציה</string>
+    <string name="info_step_one_header">ליגת קפיצה</string>
+    <string name="maps">מפות</string>
+    <string name="title_maps">מפות</string>
+    <string name="maps_and_skins">מפות ועורות</string>
+    <string name="mods">אופנות</string>
+    <string name="title_mods">אופנות</string>
+    <string name="title_skins">עורות</string>
+    <string name="skins">עורות</string>
+    <string name="start_playing">התחל לשחק עם מצבים, מפות ומפות ייחודיים עכשיו!</string>
+    <string name="info_step_one_text">זוהי מפת פארקור פשוטה המתגברת על מכשולים באמצעות בלוקי פיקוד ועליה להביס את הבוס הסופי saasasasasasasasasasdasdasdasdasda</string>
+    <string name="unlimited_downloads">הורדות לא מוגבלות</string>
+</resources>

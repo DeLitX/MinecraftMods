@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Datenschutzbestimmungen </u> &amp; <u> Nutzungsbedingungen </u></string>
+    <string name="info_step_one">1.WÄHLEN SIE IHRE LIEBLINGSKARTE ODER MOD</string>
+    <string name="info_step_two">2.KLICKEN SIE AUF DIE DOWNLOAD-TASTE und warten Sie, bis die Karte oder der Mod auf das Gerät geladen ist.</string>
+    <string name="info_step_three">3.KLICKEN SIE AUF DIE INSTALLIERUNGSTASTE, MINECRAFT WIRD GEÖFFNET UND IMPORT IN DAS SPIEL BEGINNT. Warten Sie, bis der Import beendet ist</string>
+    <string name="info_step_four_one">4.DIE HERUNTERGELADENE KARTE WIRD IM ABSCHNITT WELT ERSCHEINEN.</string>
+    <string name="subscription_description">Nach Ablauf des Angebots wird das Abonnement automatisch bezahlt und Ihnen werden einmal pro Woche 30 US-Dollar berechnet, bis Sie kündigen. Sie können sich jederzeit abmelden. Beachten Sie unsere Datenschutzbestimmungen und Nutzungsbedingungen.</string>
+    <string name="all">Alles</string>
+    <string name="back">Zurück</string>
+    <string name="choose_maps">WÄHLEN SIE KARTEN, DIE SIE SPIELEN MÖCHTEN</string>
+    <string name="choose_mods">WÄHLEN SIE MODI FÜR IHR SPIEL</string>
+    <string name="choose_skins">WÄHLEN SIE HAUT FÜR IHREN CHARAKTER</string>
+    <string name="Continue">Fortsetzen</string>
+    <string name="download">HERUNTERLADEN</string>
+    <string name="downloading">WIRD HERUNTERGELADEN</string>
+    <string name="dragon_mods">Drachen Mods</string>
+    <string name="info_step_four_three">DAS SPIEL GENIESSEN :)</string>
+    <string name="famous_mods">Berühmte Modi</string>
+    <string name="title_favourite">Lieblings</string>
+    <string name="info_step_four_two">Wenn Sie Mods installiert haben, erscheinen sie im entsprechenden Abschnitt in den Karteneinstellungen.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INSTALLIEREN</string>
+    <string name="info_title_text">Anweisungen zur Verwendung der Anwendung</string>
+    <string name="info_step_one_header">Sprungliga</string>
+    <string name="maps">Karten</string>
+    <string name="title_maps">Karten</string>
+    <string name="maps_and_skins">KARTEN UND HAUT</string>
+    <string name="title_mods">Modifikationen</string>
+    <string name="mods">Modifikationen</string>
+    <string name="title_skins">Skins</string>
+    <string name="skins">Skins</string>
+    <string name="start_playing">SPIELEN SIE JETZT MIT EINZIGARTIGEN MODS, KARTEN UND HAUTEN!</string>
+    <string name="info_step_one_text">Dies ist eine einfache Parkour-Karte, die Hindernisse mithilfe von Befehlsblöcken überwindet und den Endgegner saasasasasasasasasasdasdasdasdasda besiegen muss</string>
+    <string name="unlimited_downloads">UNBEGRENZTE DOWNLOADS</string>
+</resources>
