@@ -10,4 +10,5 @@ abstract class BaseCategoriesViewModel<T>(private val mRepository: Repository) :
     abstract fun likeItem(item:T)
     abstract fun dislikeItem(item:T)
     abstract fun getFavourites():LiveData<List<T>>
+    abstract fun refreshCategories()
 }

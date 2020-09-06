@@ -32,6 +32,11 @@
     <string name="title_skins">Pelli</string>
     <string name="skins">Pelli</string>
     <string name="start_playing">INIZIA SUBITO A GIOCARE CON MOD, MAPPE E SKINS UNICHE!</string>
-    <string name="info_step_one_text">Questa è una semplice mappa parkour che supera gli ostacoli usando i blocchi di comando e deve sconfiggere il boss finale saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_one_text">Questa è una semplice mappa parkour che supera gli ostacoli usando i blocchi di comando e deve sconfiggere il boss finale</string>
     <string name="unlimited_downloads">DOWNLOAD ILLIMITATI</string>
+    <string name="couldnt_connect">Impossibile connettersi ai servizi Google</string>
+    <string name="try_again">Riprova</string>
+    <string name="error_occurred">Si è verificato un errore</string>
+    <string name="user_cancelled">È necessario acquistare un abbonamento per utilizzare questa applicazione</string>
+    <string name="connecting_to_services">Connessione ai servizi Google. Attendi un po \'</string>
 </resources>

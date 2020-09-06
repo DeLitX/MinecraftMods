@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft-mods</string>
+    <string name="privacy_policy"><u> Privacybeleid </u> &amp; <u> Gebruiksvoorwaarden </u></string>
+    <string name="info_step_one">1.KIES UW FAVORIETE KAART OF MOD</string>
+    <string name="info_step_two">2.KLIK OP DE DOWNLOADKNOP EN WACHT TOT DE KAART OF MOD OP HET APPARAAT IS LADEN.</string>
+    <string name="info_step_three">3.KLIK OP DE INSTALLATIEKNOP, MINECRAFT GAAT OPEN EN IMPORT NAAR HET SPEL BEGINNEN. WACHT TOT DE IMPORT EINDE IS</string>
+    <string name="info_step_four_one">4.DE GEDOWNLOADE KAART VERSCHIJNT IN DE WERELDEN SECTIE.</string>
+    <string name="subscription_description">Nadat de aanbieding is verlopen, wordt het abonnement automatisch betaald en wordt er eenmaal per week $ 30 in rekening gebracht totdat u opzegt. U kunt zich op elk moment uitschrijven. Zie ons privacybeleid en onze gebruiksvoorwaarden.</string>
+    <string name="all">Allemaal</string>
+    <string name="error_occurred">Er is een fout opgetreden</string>
+    <string name="back">Terug</string>
+    <string name="choose_maps">KIES KAARTEN DIE JE WILT SPELEN</string>
+    <string name="choose_mods">KIES MODS VOOR JE SPEL</string>
+    <string name="choose_skins">KIES HUID VOOR UW KARAKTER</string>
+    <string name="connecting_to_services">Verbinding maken met Google-services. Een ogenblik geduld</string>
+    <string name="Continue">Doorgaan met</string>
+    <string name="couldnt_connect">Kan geen verbinding maken met Google-services</string>
+    <string name="download">DOWNLOADEN</string>
+    <string name="downloading">DOWNLOADEN</string>
+    <string name="dragon_mods">Dragon mods</string>
+    <string name="info_step_four_three">GENIET VAN HET SPEL :)</string>
+    <string name="famous_mods">BEROEMDE MODS</string>
+    <string name="title_favourite">Favoriete</string>
+    <string name="info_step_four_two">ALS U MODS HEEFT GEÏNSTALLEERD, ZULLEN ZE VERSCHIJNEN IN HET OVEREENKOMSTIGE GEDEELTE IN DE KAARTINSTELLINGEN.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INSTALLEREN</string>
+    <string name="info_title_text">Instructies voor het gebruik van de applicatie</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Kaarten</string>
+    <string name="title_maps">Kaarten</string>
+    <string name="maps_and_skins">KAARTEN EN HUID</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Huiden</string>
+    <string name="skins">Huiden</string>
+    <string name="start_playing">BEGIN NU MET UNIEKE MODS, KAARTEN EN SKINS TE SPELEN!</string>
+    <string name="info_step_one_text">Dit is een eenvoudige parkour-kaart die obstakels overwint met behulp van opdrachtblokken en die de eindbaas moet verslaan</string>
+    <string name="try_again">Probeer het opnieuw</string>
+    <string name="unlimited_downloads">ONBEPERKTE DOWNLOADS</string>
+    <string name="user_cancelled">U moet een abonnement kopen om deze applicatie te gebruiken</string>
+</resources>

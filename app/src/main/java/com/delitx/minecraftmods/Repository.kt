@@ -33,7 +33,10 @@ import java.nio.channels.FileChannel
 import java.util.*
 
 
-class Repository(private val mDatabase: DataBase, private val app: Application) :
+class Repository private constructor(
+    private val mDatabase: DataBase,
+    private val app: Application
+) :
     FirebaseRequestsImpl.FirebaseInteraction {
     private val MOD_SHARED_PREFS = "mod"
     private val MAP_SHARED_PREFS = "map"
@@ -74,18 +77,50 @@ class Repository(private val mDatabase: DataBase, private val app: Application) 
         )
     )
 
+    companion object {
+        private var mInstance: Repository? = null
+        fun getInstance(database: DataBase, app: Application): Repository {
+            if (mInstance == null) {
+                mInstance = Repository(database, app)
+            }
+            return mInstance!!
+        }
+    }
+
     init {
+        refreshMapCategories()
+        refreshModCategories()
+        refreshSkinCategories()
+    }
+
+    fun refreshMapCategories() {
         val sharedPrefs = app.getSharedPreferences("shared_prefs", Application.MODE_PRIVATE)
         CoroutineScope(Default).launch {
             val map = sharedPrefs.getString(MAP_SHARED_PREFS, "")
-            val mod = sharedPrefs.getString(MOD_SHARED_PREFS, "")
-            val skin = sharedPrefs.getString(SKIN_SHARED_PREFS, "")
             val categoriesMap = map!!.decodeCategories()
-            val categoriesMod = mod!!.decodeCategories()
-            val categoriesSkin = skin!!.decodeCategories()
             withContext(Main) {
                 setMapsCategories(categoriesMap)
+            }
+        }
+    }
+
+    fun refreshModCategories() {
+        val sharedPrefs = app.getSharedPreferences("shared_prefs", Application.MODE_PRIVATE)
+        CoroutineScope(Default).launch {
+            val mod = sharedPrefs.getString(MOD_SHARED_PREFS, "")
+            val categoriesMod = mod!!.decodeCategories()
+            withContext(Main) {
                 setModsCategories(categoriesMod)
+            }
+        }
+    }
+
+    fun refreshSkinCategories() {
+        val sharedPrefs = app.getSharedPreferences("shared_prefs", Application.MODE_PRIVATE)
+        CoroutineScope(Default).launch {
+            val skin = sharedPrefs.getString(SKIN_SHARED_PREFS, "")
+            val categoriesSkin = skin!!.decodeCategories()
+            withContext(Main) {
                 setSkinsCategories(categoriesSkin)
             }
         }
@@ -530,13 +565,13 @@ class Repository(private val mDatabase: DataBase, private val app: Application) 
             }
             var source: FileChannel? = null
             var destination: FileChannel? = null
-            try {
+            return try {
                 source = FileInputStream(file).channel
                 destination = FileOutputStream(copyTo).channel
                 destination.transferFrom(source, 0, source.size())
-                return true
+                true
             } catch (e: Exception) {
-                return false
+                false
             } finally {
                 source?.close()
                 destination?.close()

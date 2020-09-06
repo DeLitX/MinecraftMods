@@ -31,6 +31,6 @@ class MainActivity : AppCompatActivity() {
 
         val navController = findNavController(R.id.nav_host_fragment)
         navView.setupWithNavController(navController)
-        Repository(DataBase.get(this.application), this.application).recreateDB()
+        Repository.getInstance(DataBase.get(this.application), this.application).recreateDB()
     }
 }

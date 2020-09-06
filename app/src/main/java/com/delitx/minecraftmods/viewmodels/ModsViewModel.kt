@@ -45,4 +45,8 @@ class ModsViewModel(private val mRepository: Repository) :
     override fun getFavourites(): LiveData<List<Mod>> {
         return mRepository.getModFavourites()
     }
+
+    override fun refreshCategories() {
+        mRepository.refreshModCategories()
+    }
 }

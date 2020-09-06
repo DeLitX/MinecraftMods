@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਮਾਇਨਕਰਾਫਟ ਮੋਡ</string>
+    <string name="privacy_policy"><u> ਗੋਪਨੀਯਤਾ ਨੀਤੀ </u> &amp; <u> ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ </u></string>
+    <string name="info_step_one">1. ਆਪਣੇ ਮਨਪਸੰਦ ਕਾਰਡ ਜਾਂ ਮਾਡ ਨੂੰ ਚੁਣੋ</string>
+    <string name="info_step_two">2. ਡਾਉਨਲੋਡ ਬਟਨ ਨੂੰ ਦਬਾਓ ਅਤੇ ਕਾਰਡ ਜਾਂ ਮਾਡ ਦੀ ਉਡੀਕ ਕਰੋ ਡਿਵਾਈਸ ਤੇ ਲੋਡ ਕਰੋ.</string>
+    <string name="info_step_three">3. ਸਥਾਪਤ ਬਟਨ \'ਤੇ ਕਲਿਕ ਕਰੋ, ਮਿਨੀਕ੍ਰਾਫਟ ਖੇਡ ਨੂੰ ਖੋਲ੍ਹਣ ਅਤੇ ਦਰਾਮਦ ਕਰੇਗਾ. ਸਮਾਪਤ ਹੋਣ ਲਈ ਇੰਪੋਰਟ ਦੀ ਉਡੀਕ ਕਰੋ</string>
+    <string name="info_step_four_one">4. ਦੂਜਾ ਡਾ Mਨਲੋਡ ਕੀਤਾ ਮੈਪ ਵਿਸ਼ਵ ਭਾਗ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਤ ਹੋਏਗਾ.</string>
+    <string name="subscription_description">ਪੇਸ਼ਕਸ਼ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਗਾਹਕੀ ਆਪਣੇ ਆਪ ਭੁਗਤਾਨ ਕਰ ਦੇਵੇਗੀ ਅਤੇ ਤੁਹਾਨੂੰ ਰੱਦ ਕਰਨ ਤਕ ਹਫਤੇ ਵਿਚ ਇਕ ਵਾਰ ਤੁਹਾਡੇ ਤੋਂ $ 30 ਵਸੂਲ ਕੀਤੇ ਜਾਣਗੇ. ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਗਾਹਕੀ ਰੱਦ ਕਰ ਸਕਦੇ ਹੋ. ਸਾਡੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਅਤੇ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ ਵੇਖੋ.</string>
+    <string name="all">ਸਾਰੇ</string>
+    <string name="error_occurred">ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ</string>
+    <string name="back">ਵਾਪਸ</string>
+    <string name="choose_maps">ਤੁਸੀਂ ਖੇਡਣਾ ਚਾਹੁੰਦੇ ਹੋ ਮੈਪ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="choose_mods">ਆਪਣੇ ਖੇਡ ਲਈ ਮਾਂ ਚੁਣੋ</string>
+    <string name="choose_skins">ਆਪਣੇ ਚਰਿੱਤਰ ਲਈ ਸਕਿਨ ਚੁਣੋ</string>
+    <string name="connecting_to_services">ਗੂਗਲ ਸੇਵਾਵਾਂ ਨਾਲ ਜੁੜ ਰਿਹਾ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਕੁਝ ਸਮੇਂ ਲਈ ਉਡੀਕ ਕਰੋ</string>
+    <string name="Continue">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="couldnt_connect">ਗੂਗਲ ਸੇਵਾਵਾਂ ਨਾਲ ਜੁੜ ਨਹੀਂ ਸਕਿਆ</string>
+    <string name="download">ਡਾ .ਨਲੋਡ ਕਰੋ</string>
+    <string name="downloading">ਡਾ .ਨਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
+    <string name="dragon_mods">ਡਰੈਗਨ ਮੋਡਸ</string>
+    <string name="info_step_four_three">ਖੇਡ ਦਾ ਅਨੰਦ ਮਾਣੋ :)</string>
+    <string name="famous_mods">ਮਸ਼ਹੂਰ ਮਾਡਸ</string>
+    <string name="title_favourite">ਮਨਪਸੰਦ</string>
+    <string name="info_step_four_two">ਜੇ ਤੁਸੀਂ ਮਾਵਾਂ ਸਥਾਪਿਤ ਕਰਦੇ ਹੋ, ਤਾਂ ਉਹ ਮੈਪ ਸੈੱਟਿੰਗਜ਼ ਵਿੱਚ ਕਾਰਪੋਜ਼ਡਿੰਗ ਸੈਕਸ਼ਨ ਵਿੱਚ ਨਜ਼ਰ ਆਉਣਗੇ.</string>
+    <string name="title_info">ਜਾਣਕਾਰੀ</string>
+    <string name="install">ਸਥਾਪਤ ਕਰੋ</string>
+    <string name="info_title_text">ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਵਰਤਣ ਲਈ ਨਿਰਦੇਸ਼</string>
+    <string name="info_step_one_header">ਜੰਪ ਲੀਗ</string>
+    <string name="maps">ਨਕਸ਼ੇ</string>
+    <string name="title_maps">ਨਕਸ਼ੇ</string>
+    <string name="maps_and_skins">ਮੈਪ ਅਤੇ ਸਕਿਨ</string>
+    <string name="title_mods">ਮਾਡਸ</string>
+    <string name="mods">ਮਾਡਸ</string>
+    <string name="title_skins">ਛਿੱਲ</string>
+    <string name="skins">ਛਿੱਲ</string>
+    <string name="start_playing">ਹੁਣ ਵਿਲੱਖਣ ਮਾਂਵਾਂ, ਨਕਸ਼ਿਆਂ ਅਤੇ ਚਮੜੀ ਦੇ ਨਾਲ ਖੇਡਣਾ ਸ਼ੁਰੂ ਕਰੋ!</string>
+    <string name="info_step_one_text">ਇਹ ਇੱਕ ਸਧਾਰਨ ਪਾਰਕੋਰ ਨਕਸ਼ਾ ਹੈ ਜੋ ਕਮਾਂਡ ਬਲਾਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਅੜਿੱਕਾ ਪਾਰ ਕਰਦਾ ਹੈ ਅਤੇ ਅੰਤਮ ਬੌਸ ਨੂੰ ਹਰਾ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="try_again">ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="unlimited_downloads">ਸੀਮਿਤ ਡਾ .ਨਲੋਡ</string>
+    <string name="user_cancelled">ਤੁਹਾਨੂੰ ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਵਰਤਣ ਲਈ ਗਾਹਕੀ ਖਰੀਦਣੀ ਪਵੇਗੀ</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft ModsMinecraft Modları</string>
+    <string name="privacy_policy"><u> Gizlilik Politikası </u> &amp; <u> Kullanım Şartları </u></string>
+    <string name="info_step_one">1. FAVORİ KARTINIZI VEYA MODUNUZU SEÇİN</string>
+    <string name="info_step_two">2. İNDİRME DÜĞMESİNİ TIKLAYIN VE KARTIN VEYA MODUN CİHAZA YÜKLENMESİNİ BEKLEYİN. A</string>
+    <string name="info_step_three">3. KURULUM DÜĞMESİNİ TIKLAYINIZ, MINECRAFT AÇILACAK VE OYUNA İTHALAT BAŞLAYACAKTIR. İTHALATIN BİTMESİNİ BEKLEYİN</string>
+    <string name="info_step_four_one">4. İNDİRİLEN HARİTA DÜNYALAR BÖLÜMÜNDE GÖRÜNECEKTİR.</string>
+    <string name="subscription_description">Teklifin süresi dolduktan sonra, abonelik otomatik olarak ödenir ve siz iptal edene kadar haftada bir kez 30 ABD doları ücretlendirilirsiniz. İstediğiniz zaman aboneliğinizi iptal edebilirsiniz. Gizlilik politikamıza ve kullanım şartlarımıza bakın.</string>
+    <string name="all">Herşey</string>
+    <string name="error_occurred">Bir hata oluştu</string>
+    <string name="back">Geri</string>
+    <string name="choose_maps">OYNAMAK İSTEDİĞİNİZ HARİTALARI SEÇİN</string>
+    <string name="choose_mods">OYUNUNUZ İÇİN MODLARI SEÇİN</string>
+    <string name="choose_skins">KARAKTERİNİZ İÇİN GÖRÜNÜMLERİ SEÇİN</string>
+    <string name="connecting_to_services">Google hizmetlerine bağlanılıyor Lütfen biraz bekleyin</string>
+    <string name="Continue">Devam et</string>
+    <string name="couldnt_connect">Google Hizmetlerine bağlanılamadı</string>
+    <string name="download">İNDİR</string>
+    <string name="downloading">İNDİRİLİYOR</string>
+    <string name="dragon_mods">Ejderha modları</string>
+    <string name="info_step_four_three">OYUNUN TADINI ÇIKAR :)</string>
+    <string name="famous_mods">ÜNLÜ MODLAR</string>
+    <string name="title_favourite">Favori</string>
+    <string name="info_step_four_two">MODLARI YÜKLEDİYSENİZ, HARİTA AYARLARINDA İLGİLİ KISIMDA GÖRÜNECEKLER.</string>
+    <string name="title_info">Bilgi</string>
+    <string name="install">YÜKLEMEK</string>
+    <string name="info_title_text">Uygulamayı kullanma talimatları</string>
+    <string name="info_step_one_header">Atlama Ligi</string>
+    <string name="maps">Haritalar</string>
+    <string name="title_maps">Haritalar</string>
+    <string name="maps_and_skins">HARİTALAR VE GÖRÜNÜMLER</string>
+    <string name="title_mods">Modlar</string>
+    <string name="mods">Modlar</string>
+    <string name="title_skins">Dış görünümler</string>
+    <string name="skins">Dış görünümler</string>
+    <string name="start_playing">EŞSİZ MODLAR, HARİTALAR VE GÖRÜNÜMLERLE ŞİMDİ OYNAMAYA BAŞLAYIN!</string>
+    <string name="try_again">Tekrar deneyin</string>
+    <string name="info_step_one_text">Bu, komut bloklarını kullanarak engellerin üstesinden gelen ve son patronu yenmesi gereken basit bir parkur haritasıdır.</string>
+    <string name="unlimited_downloads">SINIRSIZ İNDİRMELER</string>
+    <string name="user_cancelled">Bu uygulamayı kullanmak için bir abonelik satın almalısınız</string>
+</resources>

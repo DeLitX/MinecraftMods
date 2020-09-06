@@ -16,7 +16,7 @@
     <string name="info_step_four_two">" HVIS DU INSTALLEREDE MODS, vises de i den tilsvarende sektion i KORTINDSTILLINGERNE."</string>
     <string name="info_step_one">" 1.VÆLG DITT FAVORITKORT ELLER MOD"</string>
     <string name="info_step_one_header">Jumo Legue</string>
-    <string name="info_step_one_text">Dette er et simpelt parkour-kort, der overvinder forhindringer ved hjælp af kommandoblokke og skal besejre den endelige boss saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_one_text">"Dette er et simpelt parkour-kort, der overvinder forhindringer ved hjælp af kommandoblokke og skal besejre den endelige boss "</string>
     <string name="info_step_three">3.Klik på INSTALLATIONSKNAPPEN, MINECRAFT ÅBNER OG IMPORT I SPILET BEGYNDER. Vent på importen til slutningen</string>
     <string name="info_step_two">2.KLIK DOWNLOAD-KNAPPEN, og vent på, at kortet eller moden lægges på enheden.</string>
     <string name="info_title_text">Instruktioner til brug af applikationen</string>
@@ -34,4 +34,9 @@
     <string name="title_mods">Mods</string>
     <string name="title_skins">Skins</string>
     <string name="unlimited_downloads">" UBEGRÆNSET DOWNLOADS"</string>
+    <string name="couldnt_connect">Kunne ikke oprette forbindelse til Google-tjenester</string>
+    <string name="try_again">Prøv igen</string>
+    <string name="error_occurred">En fejl opstod</string>
+    <string name="user_cancelled">Du skal købe et abonnement for at bruge denne applikation</string>
+    <string name="connecting_to_services">Opretter forbindelse til google-tjenester. Vent et stykke tid</string>
 </resources>

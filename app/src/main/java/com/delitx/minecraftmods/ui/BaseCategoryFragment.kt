@@ -44,6 +44,11 @@ abstract class BaseCategoryFragment<T:BaseClass> : BaseFragment(), CategoriesAda
         return v
     }
 
+    override fun onStart() {
+        super.onStart()
+        mViewModel.refreshCategories()
+    }
+
     internal abstract fun tuneViewModel()
 
     internal abstract fun setupViewModel()

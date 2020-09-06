@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Pravilnik o zasebnosti </u> &amp; <u> Pogoji uporabe </u></string>
+    <string name="info_step_one">1. IZBERITE SVOJO PRILJUBLJENO KARTICO ALI MOD</string>
+    <string name="info_step_two">2. Klikni na gumb za prenos in počakaj, da se kartica ali način naloži na napravo.</string>
+    <string name="info_step_three">3. KLIKNITE GUMB ZA NAMESTITEV, MINECRAFT SE BO ODPREL IN UVOŽIL SE V IGRO SE BO ZAČEL. Počakajte, da se uvoz zaključi</string>
+    <string name="info_step_four_one">4. PRENESEN ZEMLJEVID SE BO PRIKAZAL V ODDELKU SVETOV.</string>
+    <string name="subscription_description">Po poteku ponudbe bo naročnina samodejno plačana in enkrat na teden vam bomo zaračunali 30 USD, dokler ne prekličete. Odjavo lahko kadar koli odjavite. Oglejte si našo politiko zasebnosti in pogoje uporabe.</string>
+    <string name="all">Vse</string>
+    <string name="error_occurred">Pojavila se je napaka</string>
+    <string name="back">Nazaj</string>
+    <string name="choose_maps">IZBERITE KARTE, KI ŽELITE IGRATI</string>
+    <string name="choose_mods">IZBERITE MODE ZA SVOJO IGRO</string>
+    <string name="choose_skins">IZBERITE KOŽE ZA VAŠ LIK</string>
+    <string name="connecting_to_services">Povezovanje z Googlovimi storitvami. Počakajte nekaj časa</string>
+    <string name="Continue">Nadaljujte</string>
+    <string name="couldnt_connect">Povezave z Googlovimi storitvami ni bilo mogoče</string>
+    <string name="download">PRENESI</string>
+    <string name="downloading">PRENOS</string>
+    <string name="dragon_mods">Dragon mods</string>
+    <string name="info_step_four_three">UŽIVAJTE V IGRI :)</string>
+    <string name="famous_mods">ZNANI MODI</string>
+    <string name="title_favourite">Najljubši</string>
+    <string name="info_step_four_two">Če ste namestili mode, se bodo pojavili v ustreznem odseku v nastavitvah zemljevida.</string>
+    <string name="title_info">Informacije</string>
+    <string name="install">NAMESTITE</string>
+    <string name="info_title_text">Navodila za uporabo aplikacije</string>
+    <string name="info_step_one_header">Skočna liga</string>
+    <string name="maps">Zemljevidi</string>
+    <string name="title_maps">Zemljevidi</string>
+    <string name="maps_and_skins">KARTE IN KOŽE</string>
+    <string name="title_mods">Modovi</string>
+    <string name="mods">Modovi</string>
+    <string name="title_skins">Preobleke</string>
+    <string name="skins">Preobleke</string>
+    <string name="start_playing">ZAČNITE SE IGRATI Z ENOTNIMI MODI, KARTAMI IN KOŽAMO TAKOJ ZDAJ!</string>
+    <string name="info_step_one_text">To je preprost zemljevid parkour, ki premaguje ovire z uporabo ukaznih blokov in mora premagati končnega šefa</string>
+    <string name="try_again">Poskusi ponovno</string>
+    <string name="unlimited_downloads">NEMOČEN PRENOS</string>
+    <string name="user_cancelled">Za uporabo te aplikacije morate kupiti naročnino</string>
+</resources>

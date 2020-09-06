@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft ModsMinecraftové mody</string>
+    <string name="privacy_policy"><u> Pravidlá ochrany osobných údajov </u> &amp; <u> Podmienky používania </u></string>
+    <string name="info_step_one">1. VYBERTE SI OBĽÚBENÚ KARTU ALEBO MOD</string>
+    <string name="info_step_two">2. KLIKNUTÍM TLAČIDLA NA STIAHNUTIE A ČAKANÍM, ABY SA KARTA ALEBO MOD NAČÍTALI NA ZARIADENIE.</string>
+    <string name="info_step_three">3. KLIKNUTÍM TLAČIDLA NAINŠTALÁCIA, MINECRAFT sa OTVORÍ A DOVOZ DO HRY ZAČNE. Čakajte na koniec dovozu</string>
+    <string name="info_step_four_one">4. STIAHNUTÁ MAPA SA ZOBRAZÍ V SEKCII SVETOV.</string>
+    <string name="subscription_description">Po uplynutí platnosti ponuky sa predplatné automaticky zaplatí a jedenkrát týždenne vám bude účtovaných 30 dolárov, kým odber nezrušíte. Odber môžete kedykoľvek zrušiť. Prečítajte si naše pravidlá ochrany osobných údajov a podmienky používania.</string>
+    <string name="all">všetko</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="back">späť</string>
+    <string name="choose_maps">VYBERTE SI MAPY, KTORÉ chcete hrať</string>
+    <string name="choose_mods">VYBERTE SI MODY PRE VAŠU HRU</string>
+    <string name="choose_skins">VYBERTE SI SKINY PRE VAŠU CHARAKTERU</string>
+    <string name="connecting_to_services">Prebieha pripájanie k službám Google. Počkajte chvíľu</string>
+    <string name="Continue">ďalej</string>
+    <string name="couldnt_connect">Nepodarilo sa pripojiť k službám Google</string>
+    <string name="download">STIAHNUŤ ▼</string>
+    <string name="downloading">DOWNLOADING</string>
+    <string name="dragon_mods">Dragon mods</string>
+    <string name="info_step_four_three">UŽI SI HRU :)</string>
+    <string name="famous_mods">SLÁVNE MODY</string>
+    <string name="title_favourite">najobľúbenejšie</string>
+    <string name="info_step_four_two">AK Nainštalujete mody, objavia sa v korešpondujúcej sekcii v nastaveniach mapy.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INŠTALÁCIA</string>
+    <string name="info_title_text">Pokyny na používanie aplikácie</string>
+    <string name="info_step_one_header">Skoková liga</string>
+    <string name="maps">mapy</string>
+    <string name="title_maps">mapy</string>
+    <string name="maps_and_skins">MAPY A KOŽE</string>
+    <string name="title_mods">mods</string>
+    <string name="mods">mods</string>
+    <string name="title_skins">Skins</string>
+    <string name="skins">Skins</string>
+    <string name="start_playing">ZAČNITE HRAŤ S JEDINEČNÝMI MÓDAMI, MAPAMI A SKINAMI Hneď HNED!</string>
+    <string name="info_step_one_text">Toto je jednoduchá mapa parkouru, ktorá prekonáva prekážky pomocou príkazových blokov a musí poraziť posledného bossa</string>
+    <string name="try_again">Skúste to znova</string>
+    <string name="unlimited_downloads">NEOBMEDZENÉ STIAHNUTIA</string>
+    <string name="user_cancelled">Ak chcete používať túto aplikáciu, musíte si kúpiť predplatné</string>
+</resources>

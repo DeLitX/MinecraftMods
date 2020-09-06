@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moduri Minecraft</string>
+    <string name="privacy_policy"><u> Politica de confidențialitate </u> &amp; <u> Termeni de utilizare </u></string>
+    <string name="info_step_one">1. ALEGEȚI CARDUL SAU MODUL FAVORIT</string>
+    <string name="info_step_two">2. Faceți clic pe butonul de descărcare și așteptați ca cardul sau modul să se încarce pe dispozitiv.</string>
+    <string name="info_step_three">3. Faceți clic pe butonul de instalare, MINECRAFT SE VA DESCHIDE și IMPORTUL ÎN JOC VA ÎNCEPE. AȘTEPTAȚI IMPORTUL SĂ TERMINEZE</string>
+    <string name="info_step_four_one">4. HARTA DESCĂRCATĂ VA APĂREA ÎN SECȚIUNEA LUMI.</string>
+    <string name="subscription_description">După expirarea ofertei, abonamentul va fi plătit automat și veți fi taxat cu 30 USD o dată pe săptămână până când anulați. Vă puteți dezabona în orice moment. Consultați politica noastră de confidențialitate și condițiile de utilizare.</string>
+    <string name="all">Toate</string>
+    <string name="error_occurred">A aparut o eroare</string>
+    <string name="back">Înapoi</string>
+    <string name="choose_maps">Alegeți hărți pe care doriți să le jucați</string>
+    <string name="choose_mods">ALEGE MODURI PENTRU JOCUL TĂU</string>
+    <string name="choose_skins">ALEGE PIELE PENTRU CARACTERUL TĂU</string>
+    <string name="connecting_to_services">Conectarea la serviciile Google. Vă rugăm să așteptați puțin</string>
+    <string name="Continue">Continua</string>
+    <string name="couldnt_connect">Nu s-a putut conecta la serviciile Google</string>
+    <string name="download">DESCARCA</string>
+    <string name="downloading">DESCĂRCAREA</string>
+    <string name="dragon_mods">Moduri Dragon</string>
+    <string name="info_step_four_three">BUCURĂ-TE DE JOC :)</string>
+    <string name="famous_mods">MODURI FAMOASE</string>
+    <string name="title_favourite">Favorită</string>
+    <string name="info_step_four_two">DACĂ AȚI INSTALAT MODS, VOR APAREA ÎN SECȚIUNEA CORESPONDENTĂ ÎN SETĂRILE HARTEI.</string>
+    <string name="title_info">Informații</string>
+    <string name="install">INSTALARE</string>
+    <string name="info_title_text">Instrucțiuni pentru utilizarea aplicației</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Hărți</string>
+    <string name="title_maps">Hărți</string>
+    <string name="maps_and_skins">HARTE ȘI PIELE</string>
+    <string name="title_mods">Moduri</string>
+    <string name="mods">Moduri</string>
+    <string name="title_skins">Piei</string>
+    <string name="skins">Piei</string>
+    <string name="start_playing">ÎNCEPEȚI SĂ JUCAȚI CU MODURI, HĂRȚI ȘI PIELE UNICE ÎN ACUM!</string>
+    <string name="info_step_one_text">Aceasta este o hartă simplă parkour care depășește obstacolele folosind blocuri de comandă și trebuie să-l învingă pe șeful final</string>
+    <string name="try_again">Încearcă din nou</string>
+    <string name="unlimited_downloads">DESCĂRCĂRI NELIMITATE</string>
+    <string name="user_cancelled">Trebuie să cumpărați un abonament pentru a utiliza această aplicație</string>
+</resources>

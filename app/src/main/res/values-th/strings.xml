@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">แผนที่และสกิน</string>
+    <string name="privacy_policy"><u> นโยบายความเป็นส่วนตัว </u> &amp; <u> เงื่อนไขการใช้งาน </u></string>
+    <string name="info_step_one">1. เลือกการ์ดที่คุณชื่นชอบหรือ MOD</string>
+    <string name="info_step_two">2. คลิกปุ่มดาวน์โหลดและรอให้การ์ดหรือ MOD โหลดลงในอุปกรณ์</string>
+    <string name="info_step_three">3. คลิกปุ่มติดตั้ง MINECRAFT จะเปิดและนำเข้าสู่เกมจะเริ่มต้น รอให้การนำเข้าสิ้นสุด</string>
+    <string name="info_step_four_one">4. แผนที่ที่ดาวน์โหลดจะปรากฏในส่วน WORLDS</string>
+    <string name="subscription_description">หลังจากข้อเสนอหมดอายุการสมัครสมาชิกจะได้รับการชำระเงินโดยอัตโนมัติและคุณจะถูกเรียกเก็บเงิน 30 เหรียญต่อสัปดาห์จนกว่าคุณจะยกเลิก คุณสามารถยกเลิกการสมัครได้ตลอดเวลา ดูนโยบายความเป็นส่วนตัวและเงื่อนไขการใช้งานของเรา</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="error_occurred">เกิดข้อผิดพลาด</string>
+    <string name="back">กลับ</string>
+    <string name="choose_maps">เลือกแผนที่ที่คุณต้องการเล่น</string>
+    <string name="choose_mods">เลือกโหมดสำหรับเกมของคุณ</string>
+    <string name="choose_skins">เลือกสกินให้เหมาะกับตัวละครของคุณ</string>
+    <string name="connecting_to_services">กำลังเชื่อมต่อกับบริการของ Google กรุณารอสักครู่</string>
+    <string name="Continue">ดำเนินการต่อ</string>
+    <string name="couldnt_connect">ไม่สามารถเชื่อมต่อกับบริการของ Google</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="downloading">กำลังดาวน์โหลด</string>
+    <string name="dragon_mods">mods มังกร</string>
+    <string name="info_step_four_three">สนุกกับเกม :)</string>
+    <string name="famous_mods">MODS ที่มีชื่อเสียง</string>
+    <string name="title_favourite">รายการโปรด</string>
+    <string name="info_step_four_two">หากคุณติดตั้ง MODS พวกเขาจะปรากฏในส่วนที่ถูกต้องในการตั้งค่าแผนที่</string>
+    <string name="title_info">ข้อมูล</string>
+    <string name="install">ติดตั้ง</string>
+    <string name="info_title_text">คำแนะนำในการใช้แอปพลิเคชัน</string>
+    <string name="info_step_one_header">กระโดดลีก</string>
+    <string name="maps">แผนที่</string>
+    <string name="title_maps">แผนที่</string>
+    <string name="maps_and_skins">แผนที่และสกิน</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">สกิน</string>
+    <string name="skins">สกิน</string>
+    <string name="start_playing">เริ่มเล่นด้วย MODS แผนที่และสกินที่ไม่เหมือนใครตอนนี้เลย!</string>
+    <string name="info_step_one_text">นี่คือแผนที่ parkour ง่ายๆที่เอาชนะอุปสรรคโดยใช้บล็อกคำสั่งและต้องเอาชนะบอสตัวสุดท้าย</string>
+    <string name="try_again">ลองอีกครั้ง</string>
+    <string name="unlimited_downloads">ดาวน์โหลดไม่ จำกัด</string>
+    <string name="user_cancelled">คุณต้องซื้อการสมัครสมาชิกเพื่อใช้แอปพลิเคชันนี้</string>
+</resources>

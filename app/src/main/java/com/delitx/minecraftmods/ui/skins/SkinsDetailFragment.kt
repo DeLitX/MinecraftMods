@@ -23,7 +23,7 @@ class SkinsDetailFragment : BaseDetailFragment<Skin>() {
 
     override fun setupViewModel() {
         val viewModelFactory = ViewModelsFactory(
-            requireActivity().application, Repository(
+            requireActivity().application, Repository.getInstance(
                 DataBase.get(requireActivity().application)
                 ,requireActivity().application)
         )

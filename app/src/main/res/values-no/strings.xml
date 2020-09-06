@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Personvern </u> &amp; <u> Vilkår for bruk </u></string>
+    <string name="info_step_one">1.VELG DITT FAVORITTKORT ELLER MOD</string>
+    <string name="info_step_two">2.KLIKK NEDLASTINGKNAPPEN OG vent på at kortet eller moden skal lastes inn i enheten.</string>
+    <string name="info_step_three">3.Klikk på INSTALLASJONSKNAPPEN, MINECRAFT ÅPNER OG IMPORT TIL SPILLET BEGYNNER. VENT PÅ IMPORTEN TIL SLUTT</string>
+    <string name="info_step_four_one">4. DET NEDLASTEDE KARTET VIRKES I VERDENSSeksjonen.</string>
+    <string name="subscription_description">Etter at tilbudet utløper, blir abonnementet automatisk betalt, og du blir belastet $ 30 en gang i uken til du sier opp. Du kan når som helst avslutte abonnementet. Se vår personvernpolicy og vilkår for bruk.</string>
+    <string name="all">Alle</string>
+    <string name="error_occurred">En feil oppstod</string>
+    <string name="back">Tilbake</string>
+    <string name="choose_maps">VELG KART DU VIL SPILE</string>
+    <string name="choose_mods">VELG MODER FOR SPILLET DITT</string>
+    <string name="choose_skins">VELG SKINS FOR DIN TEGN</string>
+    <string name="connecting_to_services">Kobler til google-tjenester. Vent litt</string>
+    <string name="Continue">Fortsette</string>
+    <string name="couldnt_connect">Kunne ikke koble til Google-tjenester</string>
+    <string name="download">NEDLASTING</string>
+    <string name="downloading">NEDLASTING</string>
+    <string name="dragon_mods">Dragon mods</string>
+    <string name="info_step_four_three">NYT SPILLET :)</string>
+    <string name="famous_mods">KJENTE MODUSER</string>
+    <string name="title_favourite">Favoritt</string>
+    <string name="info_step_four_two">HVIS DU INSTALLERTE MODS, VIL DE VISE I DEN tilsvarende svarende delen i KARTINNSTILLINGENE.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INSTALLERE</string>
+    <string name="info_title_text">Instruksjoner for bruk av applikasjonen</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Kart</string>
+    <string name="title_maps">Kart</string>
+    <string name="maps_and_skins">KART OG HUD</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Skinn</string>
+    <string name="skins">Skinn</string>
+    <string name="start_playing">BEGYNN Å SPILLE MED UNIKKE MODUSER, KARTER OG HUD NÅ!</string>
+    <string name="info_step_one_text">Dette er et enkelt parkour-kart som overvinner hindringer ved hjelp av kommandoblokker og må beseire den endelige sjefen</string>
+    <string name="try_again">Prøv igjen</string>
+    <string name="unlimited_downloads">UBEGRENSET NEDLASTING</string>
+    <string name="user_cancelled">Du må kjøpe et abonnement for å bruke dette programmet</string>
+</resources>

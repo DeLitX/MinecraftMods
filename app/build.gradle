@@ -63,7 +63,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+
+    //Billing
+    implementation "com.android.billingclient:billing:3.0.0"
+    implementation "com.android.billingclient:billing-ktx:3.0.0"
 
     // Room
     implementation "androidx.room:room-runtime:$room_version"

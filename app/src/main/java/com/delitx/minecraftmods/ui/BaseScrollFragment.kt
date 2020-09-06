@@ -43,7 +43,7 @@ abstract class BaseScrollFragment<T> : BaseFragment(), ItemsAdapter.ItemsInterac
 
     private fun setupViewModel(modelClass: Class<out BaseCategoriesViewModel<T>>) {
         val viewModelFactory = ViewModelsFactory(
-            requireActivity().application, Repository(
+            requireActivity().application, Repository.getInstance(
                 DataBase.get(requireActivity().application), requireActivity().application
             )
         )

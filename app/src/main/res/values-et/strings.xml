@@ -9,7 +9,7 @@
     <string name="info_title_text">Juhised rakenduse kasutamiseks</string>
     <string name="info_step_one">1. VALI LEMMIKKAART VÕI MOD</string>
     <string name="info_step_one_header">Hüpeliiga</string>
-    <string name="info_step_one_text">See on lihtne parkouri kaart, mis ületab takistused käsuplokide abil ja peab alistama lõpliku ülemuse saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_one_text">See on lihtne parkouri kaart, mis ületab takistused käsuplokide abil ja peab alistama lõpliku ülemuse</string>
     <string name="info_step_three">3. KLÕPSAKE PAIGALDAMISNUPpu, MINECRAFT AVATAB JA ALGAB IMPORDI MÄNGU. OOTA IMPORDI LÕPPEMIST</string>
     <string name="info_step_four_one">4. ALLALAADITUD KAART ilmub MAAILMADE OSA.</string>
     <string name="info_step_four_two">KUI PAIGALDADE MODEID, NAD MÄRGITAKSE KAARDI Sättete vastavas osas.</string>
@@ -34,4 +34,9 @@
     <string name="download">LAE ALLA</string>
     <string name="info_step_two">2. KLÕPSAKE ALLALAADIMISE NUPP PALJU ja oodake, kuni kaart või mod laaditakse seadmesse.</string>
     <string name="title_favourite">Lemmik</string>
+    <string name="couldnt_connect">Google\'i teenustega ei saanud ühendust luua</string>
+    <string name="try_again">Proovi uuesti</string>
+    <string name="error_occurred">Ilmnes viga</string>
+    <string name="user_cancelled">Selle rakenduse kasutamiseks peate ostma tellimuse</string>
+    <string name="connecting_to_services">Ühendamine Google\'i teenustega. Palun oodake mõnda aega</string>
 </resources>

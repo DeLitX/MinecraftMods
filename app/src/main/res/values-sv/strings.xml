@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Sekretesspolicy </u> &amp; <u> Användarvillkor </u></string>
+    <string name="info_step_one">1.VÄLJ DITT FAVORITKORT ELLER MOD</string>
+    <string name="info_step_two">2.KLICKA NEDLADDNINGSKNAPPEN OCH VÄNTA PÅ KORTET ELLER MODEN FÖR ATT LADDA PÅ ENHETEN</string>
+    <string name="info_step_three">3.KLICKA INSTALLATIONSKNAPPEN, MINECRAFT ÖPPNAR OCH IMPORT TILL SPELET BÖRJAR. VÄNTA PÅ IMPORTEN TILL SLUT</string>
+    <string name="info_step_four_one">4. DEN NEDLADDADE KARTAN FÖRES I VÄRLDENS AVSNITT.</string>
+    <string name="subscription_description">När erbjudandet löper ut kommer prenumerationen automatiskt att betalas och du kommer att debiteras $ 30 en gång i veckan tills du avbryter. Du kan när som helst avsluta prenumerationen. Se vår integritetspolicy och användarvillkor.</string>
+    <string name="all">Allt</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="back">Tillbaka</string>
+    <string name="choose_maps">VÄLJ KARTOR DU VILL SPELA</string>
+    <string name="choose_mods">VÄLJ MODER FÖR DITT SPEL</string>
+    <string name="choose_skins">VÄLJ SKIN FÖR DIN KARAKTER</string>
+    <string name="connecting_to_services">Ansluter till Googles tjänster. Vänta en stund</string>
+    <string name="Continue">Fortsätta</string>
+    <string name="couldnt_connect">Det gick inte att ansluta till Googles tjänster</string>
+    <string name="download">LADDA NER</string>
+    <string name="downloading">LADDAR NER</string>
+    <string name="dragon_mods">Dragon mods</string>
+    <string name="info_step_four_three">NJUT AV SPELET :)</string>
+    <string name="famous_mods">KÄNDA MODS</string>
+    <string name="title_favourite">Favorit</string>
+    <string name="info_step_four_two">OM DU INSTALLERAR MODS FÖR DE FÖRESKRIVS I MOTSVARANDE AVSNITT I KARTINSTÄLLNINGARNA.</string>
+    <string name="title_info">Info</string>
+    <string name="install">INSTALLERA</string>
+    <string name="info_title_text">Instruktioner för användning av applikationen</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Kartor</string>
+    <string name="title_maps">Kartor</string>
+    <string name="maps_and_skins">KARTOR OCH HUD</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Skinn</string>
+    <string name="skins">Skinn</string>
+    <string name="start_playing">Börja spela med unika lägen, kartor och skinn just nu!</string>
+    <string name="info_step_one_text">Detta är en enkel parkour-karta som övervinner hinder med hjälp av kommandoblock och måste besegra den slutliga chefen</string>
+    <string name="try_again">Försök igen</string>
+    <string name="unlimited_downloads">OBEGRÄNSADE NEDLADDNINGAR</string>
+    <string name="user_cancelled">Du måste köpa en prenumeration för att använda den här applikationen</string>
+</resources>

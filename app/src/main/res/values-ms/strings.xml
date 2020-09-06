@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mod Minecraft</string>
+    <string name="privacy_policy"><u> Dasar Privasi </u> &amp; <u> Syarat Penggunaan </u></string>
+    <string name="info_step_one">1.PILIH KAD ATAU MOD KEGEMARAN ANDA</string>
+    <string name="info_step_two">2. KLIK TOMBOL DOWNLOAD DAN TUNGGU KAD ATAU MOD UNTUK MEMAKAIKAN PERANGKAT.</string>
+    <string name="info_step_three">3.Klik Tombol PASANG, MINECRAFT AKAN DIBUKA DAN IMPOR KE GAME AKAN BERMULA. TUNGGU IMPOR TAMAT</string>
+    <string name="info_step_four_one">4. PETA DOWNLOAD AKAN DILAMPIRKAN DI BAHAGIAN DUNIA.</string>
+    <string name="subscription_description">Selepas tawaran tamat, langganan akan dibayar secara automatik dan anda akan dikenakan bayaran $ 30 seminggu sekali sehingga anda membatalkannya. Anda boleh berhenti melanggan pada bila-bila masa. Lihat dasar privasi dan syarat penggunaan kami.</string>
+    <string name="all">Semua</string>
+    <string name="error_occurred">Berlaku ralat</string>
+    <string name="back">Belakang</string>
+    <string name="choose_maps">PILIH PETA YANG ANDA INGIN BERMAIN</string>
+    <string name="choose_mods">PILIH MOD UNTUK PERMAINAN ANDA</string>
+    <string name="choose_skins">PILIH KULIT UNTUK KARAKTER ANDA</string>
+    <string name="connecting_to_services">Menyambung ke perkhidmatan google. Sila tunggu sebentar</string>
+    <string name="Continue">Teruskan</string>
+    <string name="couldnt_connect">Tidak dapat menyambung ke Perkhidmatan Google</string>
+    <string name="download">MUAT TURUN</string>
+    <string name="downloading">MUAT TURUN</string>
+    <string name="dragon_mods">Mod naga</string>
+    <string name="info_step_four_three">NIKMATI PERMAINAN :)</string>
+    <string name="famous_mods">MOD FAMOUS</string>
+    <string name="title_favourite">Kegemaran</string>
+    <string name="info_step_four_two">JIKA ANDA MEMASANG MOD, MEREKA AKAN BERKENAAN DALAM BAHAGIAN PEMBETULAN DALAM PENETAPAN PETA.</string>
+    <string name="title_info">Maklumat</string>
+    <string name="install">PASANG</string>
+    <string name="info_title_text">Arahan untuk menggunakan aplikasi tersebut</string>
+    <string name="info_step_one_header">Lompat Liga</string>
+    <string name="maps">Peta</string>
+    <string name="title_maps">Peta</string>
+    <string name="maps_and_skins">PETA DAN KULIT</string>
+    <string name="title_mods">Mod</string>
+    <string name="mods">Mod</string>
+    <string name="title_skins">Kulit</string>
+    <string name="skins">Kulit</string>
+    <string name="start_playing">MULAI BERMAIN DENGAN MOD, PETA DAN KULIT YANG TIDAK BENAR SEKARANG!</string>
+    <string name="info_step_one_text">Ini adalah peta parkour sederhana yang mengatasi rintangan menggunakan blok perintah dan mesti mengalahkan bos terakhir</string>
+    <string name="try_again">Cuba lagi</string>
+    <string name="unlimited_downloads">DOWNLOAD TANPA BATAS</string>
+    <string name="user_cancelled">Anda mesti membeli langganan untuk menggunakan aplikasi ini</string>
+</resources>

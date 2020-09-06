@@ -27,11 +27,16 @@
     <string name="info_step_four_two">JOS ASENNET MODIT, NÄKYMÄT KARTAN ASETUSTEN VASTAAVASSA OSAOSASSA.</string>
     <string name="info_step_four_one">4.LADATTU KARTTA NÄYTTY MAAILMOITUSOSASSA.</string>
     <string name="info_step_three">3.NAPAA ASENNUSPAINIKETTA, MINECRAFT AUKI JA TUONTI PELIEN ALKAA. ODOTA TUONTI LOPPUA</string>
-    <string name="info_step_one_text">Tämä on yksinkertainen parkour-kartta, joka voittaa esteet komentolohkojen avulla ja täytyy voittaa lopullinen pomo saasasasasasasasasdasdasdasdasdas</string>
+    <string name="info_step_one_text">"Tämä on yksinkertainen parkour-kartta, joka voittaa esteet komentolohkojen avulla ja täytyy voittaa lopullinen pomo "</string>
     <string name="info_step_one_header">Hyppyliiga</string>
     <string name="info_step_one">1.Valitse suosikkikortti tai mode</string>
     <string name="info_title_text">Ohjeet sovelluksen käyttöön</string>
     <string name="title_skins">Nahat</string>
     <string name="title_info">Tiedot</string>
     <string name="title_mods">Modit</string>
+    <string name="couldnt_connect">Yhteyden muodostaminen Google-palveluihin epäonnistui</string>
+    <string name="try_again">Yritä uudelleen</string>
+    <string name="error_occurred">Tapahtui virhe</string>
+    <string name="user_cancelled">Sinun on ostettava tilaus, jotta voit käyttää tätä sovellusta</string>
+    <string name="connecting_to_services">Yhdistetään Google-palveluihin, odota hetki</string>
 </resources>

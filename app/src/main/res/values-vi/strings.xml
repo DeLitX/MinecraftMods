@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minecraft Mods</string>
+    <string name="privacy_policy"><u> Chính sách Bảo mật </u> &amp; <u> Điều khoản sử dụng </u></string>
+    <string name="info_step_one">1. CHỌN THẺ HOẶC MOD YÊU THÍCH CỦA BẠN</string>
+    <string name="info_step_two">2. NHẤP VÀO NÚT TẢI XUỐNG VÀ CHỜ THẺ HOẶC MOD ĐỂ TẢI TRÊN THIẾT BỊ. A</string>
+    <string name="info_step_three">3. NHẤP VÀO NÚT CÀI ĐẶT, MINECRAFT SẼ MỞ VÀ NHẬP VÀO TRÒ CHƠI SẼ BẮT ĐẦU. CHỜ VIỆC NHẬP KHẨU KẾT THÚC</string>
+    <string name="info_step_four_one">4. BẢN ĐỒ ĐÃ TẢI XUỐNG SẼ XUẤT HIỆN TRONG PHẦN TỪ.</string>
+    <string name="subscription_description">Sau khi ưu đãi hết hạn, đăng ký sẽ tự động được thanh toán và bạn sẽ bị tính phí $ 30 mỗi tuần một lần cho đến khi bạn hủy. Bạn có thể bỏ theo dõi bất cứ lúc nào. Xem chính sách bảo mật và điều khoản sử dụng của chúng tôi.</string>
+    <string name="all">Tất cả</string>
+    <string name="error_occurred">Đã xảy ra lỗi</string>
+    <string name="back">Trở lại</string>
+    <string name="choose_maps">CHỌN BẢN ĐỒ BẠN MUỐN PHÁT</string>
+    <string name="choose_mods">CHỌN CHẾ ĐỘ CHO TRÒ CHƠI CỦA BẠN</string>
+    <string name="choose_skins">HÃY CHỌN DA CHO NHÂN VẬT CỦA BẠN</string>
+    <string name="connecting_to_services">Đang kết nối với các dịch vụ của Google. Vui lòng đợi một lát</string>
+    <string name="Continue">Tiếp tục</string>
+    <string name="couldnt_connect">Không thể kết nối với các dịch vụ của Google</string>
+    <string name="download">TẢI XUỐNG</string>
+    <string name="downloading">TẢI XUỐNG</string>
+    <string name="dragon_mods">Mod rồng</string>
+    <string name="info_step_four_three">THƯỞNG THỨC CÁC TRÒ CHƠI :)</string>
+    <string name="famous_mods">CÁC CHẾ ĐỘ NỔI TIẾNG</string>
+    <string name="title_favourite">Yêu thích</string>
+    <string name="info_step_four_two">NẾU BẠN CÀI ĐẶT CÁC CHẾ ĐỘ, HỌ SẼ XUẤT HIỆN TRONG PHẦN KHẮC PHỤC TRONG CÀI ĐẶT BẢN ĐỒ.</string>
+    <string name="title_info">Thông tin</string>
+    <string name="install">TẢI VỀ</string>
+    <string name="info_title_text">Hướng dẫn sử dụng ứng dụng</string>
+    <string name="info_step_one_header">Jump League</string>
+    <string name="maps">Bản đồ</string>
+    <string name="title_maps">Bản đồ</string>
+    <string name="maps_and_skins">BẢN ĐỒ VÀ DA</string>
+    <string name="title_mods">Mods</string>
+    <string name="mods">Mods</string>
+    <string name="title_skins">Da</string>
+    <string name="skins">Da</string>
+    <string name="start_playing">BẮT ĐẦU CHƠI VỚI CÁC CHẾ ĐỘ, BẢN ĐỒ VÀ DA ĐỘC ĐÁO NGAY BÂY GIỜ!</string>
+    <string name="info_step_one_text">Đây là một bản đồ parkour đơn giản vượt qua chướng ngại vật bằng cách sử dụng các khối lệnh và phải đánh bại trùm cuối</string>
+    <string name="try_again">Thử lại</string>
+    <string name="unlimited_downloads">TẢI XUỐNG KHÔNG GIỚI HẠN</string>
+    <string name="user_cancelled">Bạn phải mua một đăng ký để sử dụng ứng dụng này</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">마인 크래프트 모드</string>
+    <string name="privacy_policy"><u> 개인 정보 보호 정책 </u> &amp; <u> 이용 약관 </u></string>
+    <string name="info_step_one">1. 좋아하는 카드 또는 모드 선택</string>
+    <string name="info_step_two">2. 다운로드 버튼을 클릭하고 카드 또는 모드가 장치에로드 될 때까지 기다립니다.</string>
+    <string name="info_step_three">3. 설치 버튼을 클릭하면 MINECRAFT가 열리고 게임으로 가져 오기가 시작됩니다. 가져 오기가 끝날 때까지 기다립니다.</string>
+    <string name="info_step_four_one">4. 다운로드 한지도가 세계 섹션에 표시됩니다.</string>
+    <string name="subscription_description">쿠폰이 만료되면 구독료가 자동으로 결제되며 취소 할 때까지 일주일에 한 번 $ 30가 청구됩니다. 언제든지 구독을 취소 할 수 있습니다. 개인 정보 보호 정책 및 사용 약관을 참조하십시오.</string>
+    <string name="all">모두</string>
+    <string name="error_occurred">에러 발생됨</string>
+    <string name="back">뒤</string>
+    <string name="choose_maps">플레이하고 싶은 맵을 선택하세요</string>
+    <string name="choose_mods">게임을위한 모드 선택</string>
+    <string name="choose_skins">캐릭터에 맞는 스킨 선택</string>
+    <string name="connecting_to_services">Google 서비스에 연결 중입니다. 잠시만 기다려주세요.</string>
+    <string name="Continue">계속하다</string>
+    <string name="couldnt_connect">Google 서비스에 연결할 수 없습니다.</string>
+    <string name="download">다운로드</string>
+    <string name="downloading">다운로드</string>
+    <string name="dragon_mods">드래곤 모드</string>
+    <string name="info_step_four_three">게임을 즐기십시오 :)</string>
+    <string name="famous_mods">유명한 모드</string>
+    <string name="title_favourite">인기 있는 말</string>
+    <string name="info_step_four_two">MOD를 설치 한 경우 맵 설정의 해당 섹션에 나타납니다.</string>
+    <string name="title_info">정보</string>
+    <string name="install">설치</string>
+    <string name="info_title_text">응용 프로그램 사용 지침</string>
+    <string name="info_step_one_header">점프 리그</string>
+    <string name="maps">지도</string>
+    <string name="title_maps">지도</string>
+    <string name="maps_and_skins">지도와 피부</string>
+    <string name="title_mods">개조</string>
+    <string name="mods">개조</string>
+    <string name="title_skins">스킨</string>
+    <string name="skins">스킨</string>
+    <string name="start_playing">지금 바로 독특한 모드, 맵 및 스킨으로 플레이를 시작하세요!</string>
+    <string name="info_step_one_text">이것은 커맨드 블록을 사용하여 장애물을 극복하고 최종 보스 를 물리쳐야하는 간단한 파 쿠르 맵입니다</string>
+    <string name="try_again">다시 시도하십시오</string>
+    <string name="unlimited_downloads">무제한 다운로드</string>
+    <string name="user_cancelled">이 애플리케이션을 사용하려면 구독을 구매해야합니다.</string>
+</resources>

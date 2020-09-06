@@ -23,7 +23,7 @@ class InfoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val viewModelFactory = ViewModelsFactory(
-            this.requireActivity().application, Repository(
+            this.requireActivity().application, Repository.getInstance(
                 DataBase.get(this.requireActivity().application)
                 ,requireActivity().application)
         )

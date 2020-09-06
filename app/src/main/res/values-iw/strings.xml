@@ -32,6 +32,11 @@
     <string name="title_skins">עורות</string>
     <string name="skins">עורות</string>
     <string name="start_playing">התחל לשחק עם מצבים, מפות ומפות ייחודיים עכשיו!</string>
-    <string name="info_step_one_text">זוהי מפת פארקור פשוטה המתגברת על מכשולים באמצעות בלוקי פיקוד ועליה להביס את הבוס הסופי saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_one_text">"זוהי מפת פארקור פשוטה המתגברת על מכשולים באמצעות בלוקי פיקוד ועליה להביס את הבוס הסופי "</string>
     <string name="unlimited_downloads">הורדות לא מוגבלות</string>
+    <string name="connecting_to_services">מתחבר לשירותי google. אנא המתן זמן מה</string>
+    <string name="user_cancelled">עליך להשתמש במנוי כדי להשתמש ביישום זה</string>
+    <string name="error_occurred">התרחשה שגיאה</string>
+    <string name="try_again">נסה שוב</string>
+    <string name="couldnt_connect">לא ניתן היה להתחבר לשירותי Google</string>
 </resources>

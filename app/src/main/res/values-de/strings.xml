@@ -32,6 +32,11 @@
     <string name="title_skins">Skins</string>
     <string name="skins">Skins</string>
     <string name="start_playing">SPIELEN SIE JETZT MIT EINZIGARTIGEN MODS, KARTEN UND HAUTEN!</string>
-    <string name="info_step_one_text">Dies ist eine einfache Parkour-Karte, die Hindernisse mithilfe von Befehlsblöcken überwindet und den Endgegner saasasasasasasasasasdasdasdasdasda besiegen muss</string>
+    <string name="info_step_one_text">Dies ist eine einfache Parkour-Karte, die Hindernisse mithilfe von Befehlsblöcken überwindet und den Endgegner besiegen muss</string>
     <string name="unlimited_downloads">UNBEGRENZTE DOWNLOADS</string>
+    <string name="couldnt_connect">Es konnte keine Verbindung zu Google Services hergestellt werden</string>
+    <string name="try_again">Versuch es noch einmal</string>
+    <string name="error_occurred">Ein Fehler ist aufgetreten</string>
+    <string name="user_cancelled">Sie müssen ein Abonnement kaufen, um diese Anwendung nutzen zu können</string>
+    <string name="connecting_to_services">Herstellen einer Verbindung zu Google Services. Bitte warten Sie eine Weile</string>
 </resources>

@@ -32,6 +32,11 @@
     <string name="title_skins">Δέρματα</string>
     <string name="start_playing">Ξεκινήστε να παίζετε με ΜΟΝΑΔΙΚΑ MODS, ΧΑΡΤΕΣ ΚΑΙ ΔΕΡΜΑΤΑ ΤΩΡΑ!</string>
     <string name="skins">Δέρματα</string>
-    <string name="info_step_one_text">Αυτός είναι ένας απλός χάρτης parkour που ξεπερνά τα εμπόδια χρησιμοποιώντας μπλοκ εντολών και πρέπει να νικήσει τον τελικό αφεντικό saasasasasasasasasasdasdasdasdasda</string>
+    <string name="info_step_one_text">"Αυτός είναι ένας απλός χάρτης parkour που ξεπερνά τα εμπόδια χρησιμοποιώντας μπλοκ εντολών και πρέπει να νικήσει τον τελικό αφεντικό "</string>
     <string name="unlimited_downloads">ΑΠΕΡΙΟΡΙΣΤΑ ΛΗΨΕΙΣ</string>
+    <string name="couldnt_connect">Δεν ήταν δυνατή η σύνδεση με τις Υπηρεσίες Google</string>
+    <string name="try_again">Προσπάθησε ξανά</string>
+    <string name="error_occurred">Παρουσιάστηκε σφάλμα</string>
+    <string name="user_cancelled">Πρέπει να αγοράσετε μια συνδρομή για να χρησιμοποιήσετε αυτήν την εφαρμογή</string>
+    <string name="connecting_to_services">Σύνδεση με υπηρεσίες Google. Περιμένετε λίγο</string>
 </resources>

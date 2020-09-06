@@ -40,4 +40,8 @@ class MapsViewModel(private val mRepository: Repository) : BaseCategoriesViewMod
         return mRepository.getMapFavourites()
     }
 
+    override fun refreshCategories() {
+        mRepository.refreshMapCategories()
+    }
+
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Минецрафт Модс</string>
+    <string name="privacy_policy"><u> Политика приватности </u> &amp; <u> Услови коришћења </u></string>
+    <string name="info_step_one">1. ОДАБЕРИТЕ ОМИЉЕНУ КАРТИЦУ ИЛИ МОД</string>
+    <string name="info_step_two">2.КЛИКНИТЕ НА ДУГМЕ ЗА ПРЕУЗИМАЊЕ И ЧЕКАЈТЕ ДА СЕ КАРТИЦА ИЛИ МОД УЧИТАЈ НА УРЕЂАЈ.</string>
+    <string name="info_step_three">3.КЛИКНИТЕ НА дугме ИНСТАЛАЦИЈА, МИНЕЦРАФТ ЋЕ СЕ ОТВОРИТИ И УВОЋИТ ЋЕ У ИГРУ. ЧЕКАЈТЕ ДА СЕ УВОЗ ЗАВРШИ</string>
+    <string name="info_step_four_one">4. ПРЕУЗЕТА КАРТА ПОЈАВИТ ЋЕ СЕ У СЕКЦИЈИ СВИЈЕТОВА.</string>
+    <string name="subscription_description">Након истека понуде, претплата ће аутоматски бити плаћена и наплаћиваће се 30 УСД једном недељно док не откажете. Претплату можете отказати у било ком тренутку. Погледајте нашу политику приватности и услове коришћења.</string>
+    <string name="all">Све</string>
+    <string name="error_occurred">Дошло је до грешке</string>
+    <string name="back">Назад</string>
+    <string name="choose_maps">ОДАБЕРИТЕ КАРТЕ КОЈЕ ЖЕЛИТЕ ДА ИГРАТЕ</string>
+    <string name="choose_mods">ОДАБЕРИТЕ МОДЕ ЗА СВОЈУ ИГРУ</string>
+    <string name="choose_skins">ОДАБЕРИТЕ КОЖУ ЗА ЛИК</string>
+    <string name="connecting_to_services">Повезивање са гоогле услугама. Сачекајте мало</string>
+    <string name="Continue">Настави</string>
+    <string name="couldnt_connect">Повезивање са Гоогле услугама није успело</string>
+    <string name="download">ПРЕУЗИМАЊЕ</string>
+    <string name="downloading">ПРЕУЗИМАЊЕ</string>
+    <string name="dragon_mods">Драгон модс</string>
+    <string name="info_step_four_three">УЖИВАЈ У ИГРИ :)</string>
+    <string name="famous_mods">ПОЗНАТИ МОДОВИ</string>
+    <string name="title_favourite">Фаворите</string>
+    <string name="info_step_four_two">АКО СТЕ ИНСТАЛИРАЛИ МОДЕ, ПОЈАВИТ ЋЕ СЕ У ОДГОВОРНОМ ОДЈЕЉКУ У ПОСТАВКАМА КАРТЕ.</string>
+    <string name="title_info">Инфо</string>
+    <string name="install">ИНСТАЛИРАЈ</string>
+    <string name="info_title_text">Упутства за употребу апликације</string>
+    <string name="info_step_one_header">Јумп Леагуе</string>
+    <string name="maps">Мапс</string>
+    <string name="title_maps">Мапс</string>
+    <string name="maps_and_skins">КАРТЕ И КОЖЕ</string>
+    <string name="title_mods">Модс</string>
+    <string name="mods">Модс</string>
+    <string name="title_skins">Скинс</string>
+    <string name="skins">Скинс</string>
+    <string name="start_playing">ПОЧНИТЕ ИГРАТИ СЕ СА ЈЕДИНСТВЕНИМ МОДОВИМА, КАРТАМА И КОЖАМА ОДМАХ!</string>
+    <string name="info_step_one_text">Ово је једноставна карта паркоура која савладава препреке помоћу командних блокова и мора победити коначног шефа</string>
+    <string name="try_again">Покушајте поново</string>
+    <string name="unlimited_downloads">НЕОГРАНИЧЕНО ПРЕУЗИМАЊЕ</string>
+    <string name="user_cancelled">Да бисте користили ову апликацију, морате купити претплату</string>
+</resources>

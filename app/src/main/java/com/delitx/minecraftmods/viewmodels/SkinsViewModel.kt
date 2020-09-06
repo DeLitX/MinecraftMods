@@ -39,4 +39,8 @@ class SkinsViewModel(private val mRepository: Repository) : BaseCategoriesViewMo
     override fun getFavourites(): LiveData<List<Skin>> {
         return mRepository.getSkinFavourites()
     }
+
+    override fun refreshCategories() {
+        mRepository.refreshSkinCategories()
+    }
 }
