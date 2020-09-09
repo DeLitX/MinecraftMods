@@ -8,7 +8,7 @@ import com.startupmoguls.mastercraft.ui.BaseScrollFragment
 import com.startupmoguls.mastercraft.ui.adapters.ItemsAdapter
 import com.startupmoguls.mastercraft.viewmodels.BaseCategoriesViewModel
 import com.startupmoguls.mastercraft.viewmodels.ModsViewModel
-import com.startupmoguls.minecraftmods.ui.mods.ModsScrollFragmentDirections
+import com.startupmoguls.mastercraft.ui.mods.ModsScrollFragmentDirections
 
 class ModsScrollFragment : BaseScrollFragment<Mod>() {
     override val mViewModelClass: Class<out BaseCategoriesViewModel<Mod>> =

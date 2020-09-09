@@ -8,7 +8,7 @@ import com.startupmoguls.mastercraft.ui.BaseScrollFragment
 import com.startupmoguls.mastercraft.ui.adapters.ItemsAdapter
 import com.startupmoguls.mastercraft.viewmodels.BaseCategoriesViewModel
 import com.startupmoguls.mastercraft.viewmodels.SkinsViewModel
-import com.startupmoguls.minecraftmods.ui.skins.SkinsScrollFragmentDirections
+import com.startupmoguls.mastercraft.ui.skins.SkinsScrollFragmentDirections
 
 class SkinsScrollFragment : BaseScrollFragment<Skin>() {
     override val mViewModelClass: Class<out BaseCategoriesViewModel<Skin>> =

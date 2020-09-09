@@ -15,16 +15,6 @@ import com.startupmoguls.mastercraft.ui.welcome.WelcomeActivity
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        //check is app opened first time
-        if (getSharedPreferences(
-                "shared prefs",
-                MODE_PRIVATE
-            ).getBoolean(ModsApp.EXTRA_IS_FIRST_OPEN, true)
-        ) {
-            val intent= Intent(this, WelcomeActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val navView: BottomNavigationView = findViewById(R.id.nav_view)

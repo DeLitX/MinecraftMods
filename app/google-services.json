@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "984032602497",
-    "firebase_url": "https://minecraft-mods-6f7fe.firebaseio.com",
-    "project_id": "minecraft-mods-6f7fe",
-    "storage_bucket": "minecraft-mods-6f7fe.appspot.com"
+    "project_number": "759854207959",
+    "firebase_url": "https://mastercraft-74b2d.firebaseio.com",
+    "project_id": "mastercraft-74b2d",
+    "storage_bucket": "mastercraft-74b2d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:984032602497:android:2129b93a97ad31da7e2080",
+        "mobilesdk_app_id": "1:759854207959:android:f21e19052b59af6907b192",
         "android_client_info": {
           "package_name": "com.startupmoguls.mastercraft"
         }
       },
       "oauth_client": [
         {
-          "client_id": "984032602497-lskjdmmbvvd1301vieu6ub14j2te5bj4.apps.googleusercontent.com",
+          "client_id": "759854207959-r8di9tgh61rr2jhpfbc4cbikrl7nn4t8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDvT45qLfKMXrsYxNxk6c5hxb6T4UT6YGo"
+          "current_key": "AIzaSyDFwJIq8-pkxjViGgdEuJYzY9z9mm7mAnA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "984032602497-lskjdmmbvvd1301vieu6ub14j2te5bj4.apps.googleusercontent.com",
+              "client_id": "759854207959-r8di9tgh61rr2jhpfbc4cbikrl7nn4t8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -10,7 +10,7 @@ import com.startupmoguls.mastercraft.R
 import com.startupmoguls.mastercraft.ui.adapters.ImagesViewPagerAdapter
 import com.startupmoguls.mastercraft.ui.adapters.interfaces.DownloadImage
 import com.startupmoguls.mastercraft.viewmodels.BaseViewModel
-import com.startupmoguls.minecraftmods.ui.mods.ModsDetailFragmentArgs
+import com.startupmoguls.mastercraft.ui.mods.ModsDetailFragmentArgs
 import kotlinx.android.synthetic.main.button_activated.view.*
 import kotlinx.android.synthetic.main.button_not_activated.view.*
 

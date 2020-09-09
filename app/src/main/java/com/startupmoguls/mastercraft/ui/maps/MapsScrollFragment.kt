@@ -7,7 +7,7 @@ import com.startupmoguls.mastercraft.ui.BaseScrollFragment
 import com.startupmoguls.mastercraft.ui.adapters.ItemsAdapter
 import com.startupmoguls.mastercraft.viewmodels.BaseCategoriesViewModel
 import com.startupmoguls.mastercraft.viewmodels.MapsViewModel
-import com.startupmoguls.minecraftmods.ui.maps.MapsScrollFragmentDirections
+import com.startupmoguls.mastercraft.ui.maps.MapsScrollFragmentDirections
 import com.startupmoguls.mastercraft.pojo.Map
 
 class MapsScrollFragment : BaseScrollFragment<Map>() {
