@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mods do Minecraft</string>
-    <string name="privacy_policy"><u> Política de privacidade </u> &amp; <u> Termos de Uso </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Política de privacidade </u></string>
     <string name="info_step_one">1. ESCOLHA SEU CARTÃO OU MOD FAVORITO</string>
     <string name="info_step_two">2. CLIQUE NO BOTÃO DE DOWNLOAD E ESPERE O CARTÃO OU MOD PARA CARREGAR NO DISPOSITIVO.</string>
     <string name="info_step_three">3. CLIQUE NO BOTÃO DE INSTALAÇÃO, O MINECRAFT ABRIRÁ E A IMPORTAÇÃO PARA O JOGO COMEÇARÁ. ESPERE QUE A IMPORTAÇÃO TERMINE</string>
@@ -34,9 +34,10 @@
     <string name="mods">Modificações</string>
     <string name="title_skins">Peles</string>
     <string name="skins">Peles</string>
-    <string name="start_playing">COMECE A JOGAR COM MODS, MAPS E SKINS EXCLUSIVOS AGORA!</string>
+    <string name="start_playing1">COMECE A JOGAR COM MODS, MAPS E SKINS EXCLUSIVOS AGORA!</string>
     <string name="info_step_one_text">Este é um mapa de parkour simples que supera obstáculos usando blocos de comando e deve derrotar o chefe final</string>
     <string name="try_again">Tente novamente</string>
     <string name="unlimited_downloads">DOWNLOADS ILIMITADOS</string>
     <string name="user_cancelled">Você deve comprar uma assinatura para usar este aplicativo</string>
+    <string name="terms_of_use"><u> Termos de Uso </u></string>
 </resources>

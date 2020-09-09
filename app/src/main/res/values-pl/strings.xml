@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Polityka prywatności </u> &amp; <u> Warunki użytkowania </u></string>
+    <string name="app_name">Mistrzostwo</string>
+    <string name="privacy_policy"><u> Polityka prywatności </u></string>
     <string name="info_step_one">1.WYBIERZ ULUBIONĄ KARTĘ LUB MOD</string>
     <string name="info_step_two">2.KLIKNIJ PRZYCISK POBIERANIA I CZEKAJ NA WKŁADANIE KARTY LUB MODU NA URZĄDZENIE.</string>
     <string name="info_step_three">3. KLIKNIJ PRZYCISK INSTALACJI, MINECRAFT Otworzy się i zacznie się import do gry. CZEKAJ NA ZAKOŃCZENIE IMPORTU</string>
@@ -34,9 +34,10 @@
     <string name="mods">Mody</string>
     <string name="title_skins">Skórki</string>
     <string name="skins">Skórki</string>
-    <string name="start_playing">ZACZNIJ GRA Z UNIKALNYMI MODAMI, MAPAMI I SKÓRAMI JUŻ TERAZ!</string>
+    <string name="start_playing1">ZACZNIJ GRA Z UNIKALNYMI MODAMI, MAPAMI I SKÓRAMI JUŻ TERAZ!</string>
     <string name="info_step_one_text">To prosta mapa parkour, która pokonuje przeszkody za pomocą bloków poleceń i musi pokonać ostatniego bossa</string>
     <string name="try_again">Spróbuj ponownie</string>
     <string name="unlimited_downloads">NIEOGRANICZONE POBIERANIE</string>
     <string name="user_cancelled">Aby korzystać z tej aplikacji, musisz kupić subskrypcję</string>
+    <string name="terms_of_use"><u> Warunki użytkowania </u></string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mods Minecraft</string>
-    <string name="privacy_policy"><u> Politique de confidentialité </u> &amp; <u> Conditions d\'utilisation </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Politique de confidentialité </u></string>
     <string name="info_step_one">1. CHOISISSEZ VOTRE CARTE OU MOD PRÉFÉRÉE</string>
     <string name="info_step_two">2.Cliquez sur le bouton de téléchargement et attendez que la carte ou le module se charge sur l\'appareil.</string>
     <string name="info_step_three">3.CLIQUEZ SUR LE BOUTON INSTALLER, MINECRAFT S\'OUVRIRA ET L\'IMPORTATION DANS LE JEU COMMENCERA. ATTENDRE LA FIN DE L\'IMPORTATION</string>
@@ -31,7 +31,7 @@
     <string name="mods">Mods</string>
     <string name="title_skins">Skins</string>
     <string name="skins">Skins</string>
-    <string name="start_playing">COMMENCEZ À JOUER AVEC DES MODS, DES CARTES ET DES SKINS UNIQUES DÈS MAINTENANT!</string>
+    <string name="start_playing1">COMMENCEZ À JOUER AVEC DES MODS, DES CARTES ET DES SKINS UNIQUES DÈS MAINTENANT!</string>
     <string name="info_step_one_text">"Il s'agit d'une simple carte de parkour qui surmonte les obstacles à l'aide de blocs de commande et doit vaincre le boss final "</string>
     <string name="unlimited_downloads">TÉLÉCHARGEMENTS ILLIMITÉS</string>
     <string name="couldnt_connect">Impossible de se connecter aux services Google</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Une erreur s\'est produite</string>
     <string name="user_cancelled">Vous devez acheter un abonnement pour utiliser cette application</string>
     <string name="connecting_to_services">Connexion aux services Google Veuillez patienter un peu</string>
+    <string name="terms_of_use"><u> Conditions d\'utilisation </u></string>
 </resources>

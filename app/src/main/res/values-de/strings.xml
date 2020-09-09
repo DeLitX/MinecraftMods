@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Datenschutzbestimmungen </u> &amp; <u> Nutzungsbedingungen </u></string>
+    <string name="app_name">Meisterwerk</string>
+    <string name="privacy_policy"><u> Datenschutzbestimmungen </u></string>
     <string name="info_step_one">1.WÄHLEN SIE IHRE LIEBLINGSKARTE ODER MOD</string>
     <string name="info_step_two">2.KLICKEN SIE AUF DIE DOWNLOAD-TASTE und warten Sie, bis die Karte oder der Mod auf das Gerät geladen ist.</string>
     <string name="info_step_three">3.KLICKEN SIE AUF DIE INSTALLIERUNGSTASTE, MINECRAFT WIRD GEÖFFNET UND IMPORT IN DAS SPIEL BEGINNT. Warten Sie, bis der Import beendet ist</string>
@@ -31,7 +31,7 @@
     <string name="mods">Modifikationen</string>
     <string name="title_skins">Skins</string>
     <string name="skins">Skins</string>
-    <string name="start_playing">SPIELEN SIE JETZT MIT EINZIGARTIGEN MODS, KARTEN UND HAUTEN!</string>
+    <string name="start_playing1">SPIELEN SIE JETZT MIT EINZIGARTIGEN MODS, KARTEN UND HAUTEN!</string>
     <string name="info_step_one_text">Dies ist eine einfache Parkour-Karte, die Hindernisse mithilfe von Befehlsblöcken überwindet und den Endgegner besiegen muss</string>
     <string name="unlimited_downloads">UNBEGRENZTE DOWNLOADS</string>
     <string name="couldnt_connect">Es konnte keine Verbindung zu Google Services hergestellt werden</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Ein Fehler ist aufgetreten</string>
     <string name="user_cancelled">Sie müssen ein Abonnement kaufen, um diese Anwendung nutzen zu können</string>
     <string name="connecting_to_services">Herstellen einer Verbindung zu Google Services. Bitte warten Sie eine Weile</string>
+    <string name="terms_of_use"><u> Nutzungsbedingungen </u></string>
 </resources>

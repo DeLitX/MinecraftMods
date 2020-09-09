@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Πολιτική απορρήτου </u> &amp; <u> Όροι Χρήσης </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Πολιτική απορρήτου </u></string>
     <string name="info_step_one">1. ΕΠΙΛΕΞΤΕ ΤΗΝ ΑΓΑΠΗΜΕΝΗ ΚΑΡΤΑ Ή ΤΟ MOD</string>
     <string name="info_step_two">2. Κάντε κλικ στο κουμπί ΛΗΨΗ ΚΑΙ ΠΕΡΙΜΕΝΕΤΕ ΤΗΝ ΚΑΡΤΑ Ή ΤΟ MOD για ΦΟΡΤΩΣΗ ΣΤΗ ΣΥΣΚΕΥΗ.</string>
     <string name="info_step_three">3. Κάντε κλικ στο κουμπί ΕΓΚΑΤΑΣΤΑΣΗΣ, το MINECRAFT θα ανοίξει και θα εισαχθεί στο παιχνίδι θα ξεκινήσει. ΠΕΡΙΜΕΝΤΕ ΤΗΝ ΕΙΣΑΓΩΓΗ ΠΡΟΣ ΤΕΛΟΣ</string>
@@ -30,7 +30,7 @@
     <string name="title_mods">Mods</string>
     <string name="mods">Mods</string>
     <string name="title_skins">Δέρματα</string>
-    <string name="start_playing">Ξεκινήστε να παίζετε με ΜΟΝΑΔΙΚΑ MODS, ΧΑΡΤΕΣ ΚΑΙ ΔΕΡΜΑΤΑ ΤΩΡΑ!</string>
+    <string name="start_playing1">Ξεκινήστε να παίζετε με ΜΟΝΑΔΙΚΑ MODS, ΧΑΡΤΕΣ ΚΑΙ ΔΕΡΜΑΤΑ ΤΩΡΑ!</string>
     <string name="skins">Δέρματα</string>
     <string name="info_step_one_text">"Αυτός είναι ένας απλός χάρτης parkour που ξεπερνά τα εμπόδια χρησιμοποιώντας μπλοκ εντολών και πρέπει να νικήσει τον τελικό αφεντικό "</string>
     <string name="unlimited_downloads">ΑΠΕΡΙΟΡΙΣΤΑ ΛΗΨΕΙΣ</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Παρουσιάστηκε σφάλμα</string>
     <string name="user_cancelled">Πρέπει να αγοράσετε μια συνδρομή για να χρησιμοποιήσετε αυτήν την εφαρμογή</string>
     <string name="connecting_to_services">Σύνδεση με υπηρεσίες Google. Περιμένετε λίγο</string>
+    <string name="terms_of_use"><u> Όροι Χρήσης </u></string>
 </resources>

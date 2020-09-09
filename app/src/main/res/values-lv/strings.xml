@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft modifikācijas</string>
-    <string name="privacy_policy"><u> Konfidencialitātes politika </u> &amp; <u> Lietošanas noteikumi </u></string>
+    <string name="app_name">Meistarība</string>
+    <string name="privacy_policy"><u> Konfidencialitātes politika </u></string>
     <string name="info_step_one">1. Izvēlieties savu iecienītāko karti vai mod</string>
     <string name="info_step_two">2. NOKLIKŠĶINIET LEJUPIELĀDES Pogu un GAIDIET KARTI VAI MODI, KAD IELADĒT IERĪCĒ.</string>
     <string name="info_step_three">3. NOKLIKŠĶINIET UZSTĀDĪŠANAS Pogu, MINECRAFT TIKS ATVĒRTS UN SĀKS IMPORTS SPĒLĒ. Gaidiet, līdz imports beigsies</string>
@@ -34,9 +34,10 @@
     <string name="mods">Modifikācijas</string>
     <string name="title_skins">Ādas</string>
     <string name="skins">Ādas</string>
-    <string name="start_playing">SĀK SPĒLĒTIES AR UNIKĀLIEM MODIEM, KARTĒM UN ĀDĀM TIESĪBĀ!</string>
+    <string name="start_playing1">SĀK SPĒLĒTIES AR UNIKĀLIEM MODIEM, KARTĒM UN ĀDĀM TIESĪBĀ!</string>
     <string name="info_step_one_text">"Šī ir vienkārša parkūra karte, kas pārvar šķēršļus, izmantojot komandu blokus, un tai ir jāuzvar pēdējais boss "</string>
     <string name="try_again">Mēģini vēlreiz</string>
     <string name="unlimited_downloads">Neierobežota lejupielāde</string>
     <string name="user_cancelled">Lai izmantotu šo lietojumprogrammu, jums jāpērk abonements</string>
+    <string name="terms_of_use"><u> Lietošanas noteikumi </u></string>
 </resources>

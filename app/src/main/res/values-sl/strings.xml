@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Pravilnik o zasebnosti </u> &amp; <u> Pogoji uporabe </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Pravilnik o zasebnosti </u></string>
     <string name="info_step_one">1. IZBERITE SVOJO PRILJUBLJENO KARTICO ALI MOD</string>
     <string name="info_step_two">2. Klikni na gumb za prenos in počakaj, da se kartica ali način naloži na napravo.</string>
     <string name="info_step_three">3. KLIKNITE GUMB ZA NAMESTITEV, MINECRAFT SE BO ODPREL IN UVOŽIL SE V IGRO SE BO ZAČEL. Počakajte, da se uvoz zaključi</string>
@@ -34,9 +34,10 @@
     <string name="mods">Modovi</string>
     <string name="title_skins">Preobleke</string>
     <string name="skins">Preobleke</string>
-    <string name="start_playing">ZAČNITE SE IGRATI Z ENOTNIMI MODI, KARTAMI IN KOŽAMO TAKOJ ZDAJ!</string>
+    <string name="start_playing1">ZAČNITE SE IGRATI Z ENOTNIMI MODI, KARTAMI IN KOŽAMO TAKOJ ZDAJ!</string>
     <string name="info_step_one_text">To je preprost zemljevid parkour, ki premaguje ovire z uporabo ukaznih blokov in mora premagati končnega šefa</string>
     <string name="try_again">Poskusi ponovno</string>
     <string name="unlimited_downloads">NEMOČEN PRENOS</string>
     <string name="user_cancelled">Za uporabo te aplikacije morate kupiti naročnino</string>
+    <string name="terms_of_use"><u> Pogoji uporabe </u></string>
 </resources>

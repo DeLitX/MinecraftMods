@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_mods"
-        android:name="com.delitx.minecraftmods.ui.mods.ModsFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.mods.ModsFragment"
         android:label="@string/title_mods"
         tools:layout="@layout/items_fragment" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/navigation_favourites"
-        android:name="com.delitx.minecraftmods.ui.favourite.FavouriteFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.favourite.FavouriteFragment"
         android:label="@string/title_favourite"
         tools:layout="@layout/fragment_favourite" >
         <action
@@ -33,12 +33,12 @@
 
     <fragment
         android:id="@+id/navigation_info"
-        android:name="com.delitx.minecraftmods.ui.info.InfoFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.info.InfoFragment"
         android:label="@string/title_info"
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/navigation_maps"
-        android:name="com.delitx.minecraftmods.ui.maps.MapsFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.maps.MapsFragment"
         android:label="@string/title_maps"
         tools:layout="@layout/items_fragment" >
         <action
@@ -47,7 +47,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_skins"
-        android:name="com.delitx.minecraftmods.ui.skins.SkinsFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.skins.SkinsFragment"
         android:label="@string/title_skins"
         tools:layout="@layout/items_fragment" >
         <action
@@ -56,7 +56,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapsDetailFragment"
-        android:name="com.delitx.minecraftmods.ui.maps.MapsDetailFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.maps.MapsDetailFragment"
         android:label="MapsDetailFragment"
         tools:layout="@layout/mod_layout">
         <argument
@@ -65,7 +65,7 @@
     </fragment>
     <fragment
         android:id="@+id/modsDetailFragment"
-        android:name="com.delitx.minecraftmods.ui.mods.ModsDetailFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.mods.ModsDetailFragment"
         android:label="ModsDetailFragment"
         tools:layout="@layout/mod_layout">
         <argument
@@ -74,7 +74,7 @@
     </fragment>
     <fragment
         android:id="@+id/skinsDetailFragment"
-        android:name="com.delitx.minecraftmods.ui.skins.SkinsDetailFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.skins.SkinsDetailFragment"
         android:label="SkinsDetailFragment" >
         <argument
             android:name="id"
@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/skinsScrollFragment"
-        android:name="com.delitx.minecraftmods.ui.skins.SkinsScrollFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.skins.SkinsScrollFragment"
         android:label="SkinsScrollFragment" >
         <action
             android:id="@+id/actionSkinDetail"
@@ -90,7 +90,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapsScrollFragment"
-        android:name="com.delitx.minecraftmods.ui.maps.MapsScrollFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.maps.MapsScrollFragment"
         android:label="MapsScrollFragment" >
         <action
             android:id="@+id/actionMapDetail"
@@ -98,7 +98,7 @@
     </fragment>
     <fragment
         android:id="@+id/modsScrollFragment"
-        android:name="com.delitx.minecraftmods.ui.mods.ModsScrollFragment"
+        android:name="com.startupmoguls.minecraftmods.ui.mods.ModsScrollFragment"
         android:label="ModsScrollFragment" >
         <action
             android:id="@+id/actionModDetail"

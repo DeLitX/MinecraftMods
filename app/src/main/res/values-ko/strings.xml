@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">마인 크래프트 모드</string>
-    <string name="privacy_policy"><u> 개인 정보 보호 정책 </u> &amp; <u> 이용 약관 </u></string>
+    <string name="app_name">마스터 크래프트</string>
+    <string name="privacy_policy"><u> 개인 정보 보호 정책 </u></string>
     <string name="info_step_one">1. 좋아하는 카드 또는 모드 선택</string>
     <string name="info_step_two">2. 다운로드 버튼을 클릭하고 카드 또는 모드가 장치에로드 될 때까지 기다립니다.</string>
     <string name="info_step_three">3. 설치 버튼을 클릭하면 MINECRAFT가 열리고 게임으로 가져 오기가 시작됩니다. 가져 오기가 끝날 때까지 기다립니다.</string>
@@ -34,9 +34,10 @@
     <string name="mods">개조</string>
     <string name="title_skins">스킨</string>
     <string name="skins">스킨</string>
-    <string name="start_playing">지금 바로 독특한 모드, 맵 및 스킨으로 플레이를 시작하세요!</string>
+    <string name="start_playing1">지금 바로 독특한 모드, 맵 및 스킨으로 플레이를 시작하세요!</string>
     <string name="info_step_one_text">이것은 커맨드 블록을 사용하여 장애물을 극복하고 최종 보스 를 물리쳐야하는 간단한 파 쿠르 맵입니다</string>
     <string name="try_again">다시 시도하십시오</string>
     <string name="unlimited_downloads">무제한 다운로드</string>
     <string name="user_cancelled">이 애플리케이션을 사용하려면 구독을 구매해야합니다.</string>
+    <string name="terms_of_use"><u> 이용 약관 </u></string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft-mods</string>
-    <string name="privacy_policy"><u> Privacybeleid </u> &amp; <u> Gebruiksvoorwaarden </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Privacybeleid </u></string>
     <string name="info_step_one">1.KIES UW FAVORIETE KAART OF MOD</string>
     <string name="info_step_two">2.KLIK OP DE DOWNLOADKNOP EN WACHT TOT DE KAART OF MOD OP HET APPARAAT IS LADEN.</string>
     <string name="info_step_three">3.KLIK OP DE INSTALLATIEKNOP, MINECRAFT GAAT OPEN EN IMPORT NAAR HET SPEL BEGINNEN. WACHT TOT DE IMPORT EINDE IS</string>
@@ -34,9 +34,10 @@
     <string name="mods">Mods</string>
     <string name="title_skins">Huiden</string>
     <string name="skins">Huiden</string>
-    <string name="start_playing">BEGIN NU MET UNIEKE MODS, KAARTEN EN SKINS TE SPELEN!</string>
+    <string name="start_playing1">BEGIN NU MET UNIEKE MODS, KAARTEN EN SKINS TE SPELEN!</string>
     <string name="info_step_one_text">Dit is een eenvoudige parkour-kaart die obstakels overwint met behulp van opdrachtblokken en die de eindbaas moet verslaan</string>
     <string name="try_again">Probeer het opnieuw</string>
     <string name="unlimited_downloads">ONBEPERKTE DOWNLOADS</string>
     <string name="user_cancelled">U moet een abonnement kopen om deze applicatie te gebruiken</string>
+    <string name="terms_of_use"><u> Gebruiksvoorwaarden </u></string>
 </resources>

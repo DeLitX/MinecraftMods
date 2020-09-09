@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft-modit</string>
+    <string name="app_name">Mastercraft</string>
     <string name="title_favourite">Suosikki</string>
     <string name="title_maps">Kartat</string>
     <string name="info_step_two">2.NAPAA LATAA-PAINIKETTA JA ODOTA KORTIN TAI MODIN LASEMISTA LAITTEESEEN.</string>
@@ -8,9 +8,9 @@
     <string name="choose_maps">VALITSE KARTAT, JOTKA haluat pelata</string>
     <string name="all">Kaikki</string>
     <string name="subscription_description">Kun tarjous päättyy, tilaus maksetaan automaattisesti ja sinulta veloitetaan 30 dollaria kerran viikossa, kunnes peruutat. Voit peruuttaa tilauksen milloin tahansa. Katso tietosuojakäytäntömme ja käyttöehdot.</string>
-    <string name="privacy_policy"><u> tietosuojakäytäntö </u> &amp; <u> Käyttöehdot </u></string>
+    <string name="privacy_policy"><u> tietosuojakäytäntö </u></string>
     <string name="dragon_mods">Dragon-modit</string>
-    <string name="start_playing">Aloita pelaaminen ainutlaatuisilla modeilla, kartoilla ja ihoilla heti!</string>
+    <string name="start_playing1">Aloita pelaaminen ainutlaatuisilla modeilla, kartoilla ja ihoilla heti!</string>
     <string name="choose_skins">VALITSE IHOT OMINAISUUDELLE</string>
     <string name="choose_mods">VALITSE PELITILAT</string>
     <string name="unlimited_downloads">RAJOITTAMATON LATAA</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Tapahtui virhe</string>
     <string name="user_cancelled">Sinun on ostettava tilaus, jotta voit käyttää tätä sovellusta</string>
     <string name="connecting_to_services">Yhdistetään Google-palveluihin, odota hetki</string>
+    <string name="terms_of_use"><u> Käyttöehdot </u></string>
 </resources>

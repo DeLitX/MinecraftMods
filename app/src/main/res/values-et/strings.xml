@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecrafti modifikatsioonid</string>
+    <string name="app_name">Mastercraft</string>
     <string name="unlimited_downloads">PIIRAMATUD LAADIMISED</string>
     <string name="title_mods">" Modifikatsioonid"</string>
     <string name="title_info">Info</string>
@@ -25,9 +25,9 @@
     <string name="maps_and_skins">KAARDID JA NAHAD</string>
     <string name="choose_mods">VALI OMA MÄNGU ​​REŽIIMID</string>
     <string name="choose_skins">VALI NAHAD OMA ISELOOMULE</string>
-    <string name="start_playing">HAKKE MÄNGUMA KOHE KOHE KOOSTAMATUTE MODE, KAARTIDE JA NAHADEGA!</string>
+    <string name="start_playing1">HAKKE MÄNGUMA KOHE KOHE KOOSTAMATUTE MODE, KAARTIDE JA NAHADEGA!</string>
     <string name="dragon_mods">Draakoni modifikatsioonid</string>
-    <string name="privacy_policy"><u> Privaatsuseeskirjad </u> &amp; <u> Kasutustingimused </u></string>
+    <string name="privacy_policy">"<u> Privaatsuseeskirjad </u> "</string>
     <string name="subscription_description">Pärast pakkumise aegumist muutub tellimus automaatselt tasuliseks ja te tühistamiseni võetakse kord nädalas 30 dollarit. Tellimuse saate igal ajal tühistada. Vaadake meie privaatsuspoliitikat ja kasutustingimusi.</string>
     <string name="all">Kõik</string>
     <string name="choose_maps">VALI KAARDID, MIDA SOOVID MÄNGIDA</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Ilmnes viga</string>
     <string name="user_cancelled">Selle rakenduse kasutamiseks peate ostma tellimuse</string>
     <string name="connecting_to_services">Ühendamine Google\'i teenustega. Palun oodake mõnda aega</string>
+    <string name="terms_of_use"><u> Kasutustingimused </u></string>
 </resources>

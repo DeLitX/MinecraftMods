@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft改造</string>
-    <string name="privacy_policy">" <u>プライバシーポリシー</u>amp; <u>利用規約</u>"</string>
+    <string name="app_name">マスタークラフト</string>
+    <string name="privacy_policy">" <u>プライバシーポリシー</u>"</string>
     <string name="info_step_one">1.お気に入りのカードまたはMODを選択してください</string>
     <string name="info_step_two">2.ダウンロードボタンをクリックして、カードまたはMODがデバイスにロードされるのを待ちます。</string>
     <string name="info_step_three">3.インストールボタンをクリックすると、MINECRAFTが開き、ゲームにインポートされます。インポートが終了するのを待ちます</string>
@@ -34,9 +34,10 @@
     <string name="mods">改造</string>
     <string name="title_skins">スキン</string>
     <string name="skins">スキン</string>
-    <string name="start_playing">ユニークなモッド、マップ、スキンで今すぐプレイを始めましょう！</string>
+    <string name="start_playing1">ユニークなモッド、マップ、スキンで今すぐプレイを始めましょう！</string>
     <string name="info_step_one_text">これは、コマンドブロックを使用して障害を克服し、最後のボスを倒す必要がある単純なパルクールマップです。</string>
     <string name="try_again">再試行</string>
     <string name="unlimited_downloads">無制限のダウンロード</string>
     <string name="user_cancelled">このアプリケーションを使用するには、サブスクリプションを購入する必要があります</string>
+    <string name="terms_of_use"><u>利用規約</u></string>
 </resources>

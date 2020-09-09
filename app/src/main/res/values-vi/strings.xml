@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Chính sách Bảo mật </u> &amp; <u> Điều khoản sử dụng </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Chính sách Bảo mật </u></string>
     <string name="info_step_one">1. CHỌN THẺ HOẶC MOD YÊU THÍCH CỦA BẠN</string>
     <string name="info_step_two">2. NHẤP VÀO NÚT TẢI XUỐNG VÀ CHỜ THẺ HOẶC MOD ĐỂ TẢI TRÊN THIẾT BỊ. A</string>
     <string name="info_step_three">3. NHẤP VÀO NÚT CÀI ĐẶT, MINECRAFT SẼ MỞ VÀ NHẬP VÀO TRÒ CHƠI SẼ BẮT ĐẦU. CHỜ VIỆC NHẬP KHẨU KẾT THÚC</string>
@@ -34,9 +34,10 @@
     <string name="mods">Mods</string>
     <string name="title_skins">Da</string>
     <string name="skins">Da</string>
-    <string name="start_playing">BẮT ĐẦU CHƠI VỚI CÁC CHẾ ĐỘ, BẢN ĐỒ VÀ DA ĐỘC ĐÁO NGAY BÂY GIỜ!</string>
+    <string name="start_playing1">BẮT ĐẦU CHƠI VỚI CÁC CHẾ ĐỘ, BẢN ĐỒ VÀ DA ĐỘC ĐÁO NGAY BÂY GIỜ!</string>
     <string name="info_step_one_text">Đây là một bản đồ parkour đơn giản vượt qua chướng ngại vật bằng cách sử dụng các khối lệnh và phải đánh bại trùm cuối</string>
     <string name="try_again">Thử lại</string>
     <string name="unlimited_downloads">TẢI XUỐNG KHÔNG GIỚI HẠN</string>
     <string name="user_cancelled">Bạn phải mua một đăng ký để sử dụng ứng dụng này</string>
+    <string name="terms_of_use"><u> Điều khoản sử dụng </u></string>
 </resources>

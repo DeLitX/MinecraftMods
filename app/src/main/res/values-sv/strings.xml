@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minecraft Mods</string>
-    <string name="privacy_policy"><u> Sekretesspolicy </u> &amp; <u> Användarvillkor </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Sekretesspolicy </u></string>
     <string name="info_step_one">1.VÄLJ DITT FAVORITKORT ELLER MOD</string>
     <string name="info_step_two">2.KLICKA NEDLADDNINGSKNAPPEN OCH VÄNTA PÅ KORTET ELLER MODEN FÖR ATT LADDA PÅ ENHETEN</string>
     <string name="info_step_three">3.KLICKA INSTALLATIONSKNAPPEN, MINECRAFT ÖPPNAR OCH IMPORT TILL SPELET BÖRJAR. VÄNTA PÅ IMPORTEN TILL SLUT</string>
@@ -34,9 +34,10 @@
     <string name="mods">Mods</string>
     <string name="title_skins">Skinn</string>
     <string name="skins">Skinn</string>
-    <string name="start_playing">Börja spela med unika lägen, kartor och skinn just nu!</string>
+    <string name="start_playing1">Börja spela med unika lägen, kartor och skinn just nu!</string>
     <string name="info_step_one_text">Detta är en enkel parkour-karta som övervinner hinder med hjälp av kommandoblock och måste besegra den slutliga chefen</string>
     <string name="try_again">Försök igen</string>
     <string name="unlimited_downloads">OBEGRÄNSADE NEDLADDNINGAR</string>
     <string name="user_cancelled">Du måste köpa en prenumeration för att använda den här applikationen</string>
+    <string name="terms_of_use"><u> Användarvillkor </u></string>
 </resources>

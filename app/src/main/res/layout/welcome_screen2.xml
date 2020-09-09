@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,29 +7,33 @@
     android:paddingHorizontal="@dimen/margin_border">
 
     <TextView
-        style="@style/Text.WelcomeHeader"
         android:id="@+id/header"
+        style="@style/Text.WelcomeHeader"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:gravity="center_horizontal"
         android:text="@string/choose_mods"
-        android:layout_weight="1"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight="2">
+        android:paddingHorizontal="@dimen/margin_border_a_little"
+        app:layout_constraintTop_toBottomOf="@id/header">
 
         <LinearLayout
+            android:id="@+id/mods1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginEnd="@dimen/margin_border"
-            android:layout_weight="1"
             android:background="@drawable/rounded_corners"
-            android:gravity="center">
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/text_mods1"
                 style="@style/Text.Header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -38,14 +42,18 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/mods2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginHorizontal="@dimen/margin_border"
-            android:layout_weight="1"
             android:background="@drawable/rounded_corners"
-            android:gravity="center">
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/mods3"
+            app:layout_constraintStart_toEndOf="@id/mods1"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/text_mods2"
                 style="@style/Text.Header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,14 +62,17 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/mods3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="@dimen/margin_border"
-            android:layout_weight="1"
             android:background="@drawable/rounded_corners_dark"
-            android:gravity="center">
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/text_mods3"
                 style="@style/Text.Header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -69,5 +80,5 @@
                 android:text="@string/dragon_mods"
                 android:textColor="@color/colorPrimary" />
         </LinearLayout>
-    </LinearLayout>
-</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

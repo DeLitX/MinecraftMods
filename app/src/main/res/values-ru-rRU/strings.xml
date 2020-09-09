@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Майнкрафт Моды</string>
+    <string name="app_name">Мастеркрафт</string>
     <string name="title_mods">Моды</string>
     <string name="title_info">Информация</string>
     <string name="title_skins">Скины</string>
@@ -22,9 +22,9 @@
     <string name="maps_and_skins">КАРТЫ И СКИНЫ</string>
     <string name="choose_mods">ВЫБЕРИТЕ МОДЫ ДЛЯ ИГРЫ</string>
     <string name="choose_skins">ВЫБЕРИТЕ СКИН ДЛЯ ВАШЕГО ПЕРСОНАЖА</string>
-    <string name="start_playing">НАЧНИТЕ ИГРАТЬ С УНИКАЛЬНЫМИ МОДАМИ, КАРТАМИ И СКИНАМИ ПРЯМО СЕЙЧАС!</string>
+    <string name="start_playing1">НАЧНИТЕ ИГРАТЬ С УНИКАЛЬНЫМИ МОДАМИ, КАРТАМИ И СКИНАМИ ПРЯМО СЕЙЧАС!</string>
     <string name="dragon_mods">Моды с драконами</string>
-    <string name="privacy_policy"><u> Политика конфиденциальности </u> &amp; <u> Условия использования </u></string>
+    <string name="privacy_policy"><u> Политика конфиденциальности </u></string>
     <string name="subscription_description">По истечении срока действия предложения подписка будет автоматически оплачена, и с вас будет взиматься 30 долларов США один раз в неделю, пока вы не отмените ее. Вы можете отписаться в любое время. Ознакомьтесь с нашей политикой конфиденциальности и правилами пользования.</string>
     <string name="all">Все</string>
     <string name="choose_maps">ВЫБЕРИТЕ КАРТЫ, В КОТОРЫЕ ХОТИТЕ ИГРАТЬ</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Произошла ошибка</string>
     <string name="try_again">Попробуйте еще раз</string>
     <string name="couldnt_connect">Не удалось подключиться к службам Google</string>
+    <string name="terms_of_use"><u> Условия использования </u></string>
 </resources>

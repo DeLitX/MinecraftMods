@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ਮਾਇਨਕਰਾਫਟ ਮੋਡ</string>
-    <string name="privacy_policy"><u> ਗੋਪਨੀਯਤਾ ਨੀਤੀ </u> &amp; <u> ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ </u></string>
+    <string name="app_name">ਮਾਸਟਰਕ੍ਰਾਫਟ</string>
+    <string name="privacy_policy"><u> ਗੋਪਨੀਯਤਾ ਨੀਤੀ </u></string>
     <string name="info_step_one">1. ਆਪਣੇ ਮਨਪਸੰਦ ਕਾਰਡ ਜਾਂ ਮਾਡ ਨੂੰ ਚੁਣੋ</string>
     <string name="info_step_two">2. ਡਾਉਨਲੋਡ ਬਟਨ ਨੂੰ ਦਬਾਓ ਅਤੇ ਕਾਰਡ ਜਾਂ ਮਾਡ ਦੀ ਉਡੀਕ ਕਰੋ ਡਿਵਾਈਸ ਤੇ ਲੋਡ ਕਰੋ.</string>
     <string name="info_step_three">3. ਸਥਾਪਤ ਬਟਨ \'ਤੇ ਕਲਿਕ ਕਰੋ, ਮਿਨੀਕ੍ਰਾਫਟ ਖੇਡ ਨੂੰ ਖੋਲ੍ਹਣ ਅਤੇ ਦਰਾਮਦ ਕਰੇਗਾ. ਸਮਾਪਤ ਹੋਣ ਲਈ ਇੰਪੋਰਟ ਦੀ ਉਡੀਕ ਕਰੋ</string>
@@ -34,9 +34,10 @@
     <string name="mods">ਮਾਡਸ</string>
     <string name="title_skins">ਛਿੱਲ</string>
     <string name="skins">ਛਿੱਲ</string>
-    <string name="start_playing">ਹੁਣ ਵਿਲੱਖਣ ਮਾਂਵਾਂ, ਨਕਸ਼ਿਆਂ ਅਤੇ ਚਮੜੀ ਦੇ ਨਾਲ ਖੇਡਣਾ ਸ਼ੁਰੂ ਕਰੋ!</string>
+    <string name="start_playing1">ਹੁਣ ਵਿਲੱਖਣ ਮਾਂਵਾਂ, ਨਕਸ਼ਿਆਂ ਅਤੇ ਚਮੜੀ ਦੇ ਨਾਲ ਖੇਡਣਾ ਸ਼ੁਰੂ ਕਰੋ!</string>
     <string name="info_step_one_text">ਇਹ ਇੱਕ ਸਧਾਰਨ ਪਾਰਕੋਰ ਨਕਸ਼ਾ ਹੈ ਜੋ ਕਮਾਂਡ ਬਲਾਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਅੜਿੱਕਾ ਪਾਰ ਕਰਦਾ ਹੈ ਅਤੇ ਅੰਤਮ ਬੌਸ ਨੂੰ ਹਰਾ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ</string>
     <string name="try_again">ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
     <string name="unlimited_downloads">ਸੀਮਿਤ ਡਾ .ਨਲੋਡ</string>
     <string name="user_cancelled">ਤੁਹਾਨੂੰ ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਵਰਤਣ ਲਈ ਗਾਹਕੀ ਖਰੀਦਣੀ ਪਵੇਗੀ</string>
+    <string name="terms_of_use"><u> ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ </u></string>
 </resources>

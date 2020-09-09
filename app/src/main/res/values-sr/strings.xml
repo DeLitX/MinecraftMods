@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Минецрафт Модс</string>
-    <string name="privacy_policy"><u> Политика приватности </u> &amp; <u> Услови коришћења </u></string>
+    <string name="app_name">Мастерцрафт</string>
+    <string name="privacy_policy"><u> Политика приватности </u></string>
     <string name="info_step_one">1. ОДАБЕРИТЕ ОМИЉЕНУ КАРТИЦУ ИЛИ МОД</string>
     <string name="info_step_two">2.КЛИКНИТЕ НА ДУГМЕ ЗА ПРЕУЗИМАЊЕ И ЧЕКАЈТЕ ДА СЕ КАРТИЦА ИЛИ МОД УЧИТАЈ НА УРЕЂАЈ.</string>
     <string name="info_step_three">3.КЛИКНИТЕ НА дугме ИНСТАЛАЦИЈА, МИНЕЦРАФТ ЋЕ СЕ ОТВОРИТИ И УВОЋИТ ЋЕ У ИГРУ. ЧЕКАЈТЕ ДА СЕ УВОЗ ЗАВРШИ</string>
@@ -34,9 +34,10 @@
     <string name="mods">Модс</string>
     <string name="title_skins">Скинс</string>
     <string name="skins">Скинс</string>
-    <string name="start_playing">ПОЧНИТЕ ИГРАТИ СЕ СА ЈЕДИНСТВЕНИМ МОДОВИМА, КАРТАМА И КОЖАМА ОДМАХ!</string>
+    <string name="start_playing1">ПОЧНИТЕ ИГРАТИ СЕ СА ЈЕДИНСТВЕНИМ МОДОВИМА, КАРТАМА И КОЖАМА ОДМАХ!</string>
     <string name="info_step_one_text">Ово је једноставна карта паркоура која савладава препреке помоћу командних блокова и мора победити коначног шефа</string>
     <string name="try_again">Покушајте поново</string>
     <string name="unlimited_downloads">НЕОГРАНИЧЕНО ПРЕУЗИМАЊЕ</string>
     <string name="user_cancelled">Да бисте користили ову апликацију, морате купити претплату</string>
+    <string name="terms_of_use"><u> Услови коришћења </u></string>
 </resources>

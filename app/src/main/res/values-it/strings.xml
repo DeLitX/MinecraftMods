@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Modifiche di Minecraft</string>
-    <string name="privacy_policy"><u> Norme sulla privacy </u> &amp; <u> Termini di utilizzo </u></string>
+    <string name="app_name">Mastercraft</string>
+    <string name="privacy_policy"><u> Norme sulla privacy </u></string>
     <string name="info_step_one">1. SCEGLI LA TUA CARTA PREFERITA O MOD</string>
     <string name="info_step_two">2.CLICCA IL PULSANTE DOWNLOAD E ATTENDI CHE LA SCHEDA O MOD DA CARICARE SUL DISPOSITIVO.</string>
     <string name="info_step_three">3.FARE CLIC SUL PULSANTE DI INSTALLAZIONE, MINECRAFT SI APRIRÀ E L\'IMPORTAZIONE NEL GIOCO INIZIA ATTENDI LA FINE DELL\'IMPORTAZIONE</string>
@@ -31,7 +31,7 @@
     <string name="mods">Mod</string>
     <string name="title_skins">Pelli</string>
     <string name="skins">Pelli</string>
-    <string name="start_playing">INIZIA SUBITO A GIOCARE CON MOD, MAPPE E SKINS UNICHE!</string>
+    <string name="start_playing1">INIZIA SUBITO A GIOCARE CON MOD, MAPPE E SKINS UNICHE!</string>
     <string name="info_step_one_text">Questa è una semplice mappa parkour che supera gli ostacoli usando i blocchi di comando e deve sconfiggere il boss finale</string>
     <string name="unlimited_downloads">DOWNLOAD ILLIMITATI</string>
     <string name="couldnt_connect">Impossibile connettersi ai servizi Google</string>
@@ -39,4 +39,5 @@
     <string name="error_occurred">Si è verificato un errore</string>
     <string name="user_cancelled">È necessario acquistare un abbonamento per utilizzare questa applicazione</string>
     <string name="connecting_to_services">Connessione ai servizi Google. Attendi un po \'</string>
+    <string name="terms_of_use"><u> Termini di utilizzo </u></string>
 </resources>
