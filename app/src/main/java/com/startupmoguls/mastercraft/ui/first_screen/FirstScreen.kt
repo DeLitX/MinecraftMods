@@ -6,10 +6,16 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.android.billingclient.api.*
 import com.startupmoguls.mastercraft.R
+import com.startupmoguls.mastercraft.Repository
+import com.startupmoguls.mastercraft.data.database.DataBase
 import com.startupmoguls.mastercraft.ui.MainActivity
 import com.startupmoguls.mastercraft.ui.welcome.WelcomeActivity
+import com.startupmoguls.mastercraft.viewmodels.FirstScreenViewModel
+import com.startupmoguls.mastercraft.viewmodels.factory.ViewModelsFactory
 import kotlinx.android.synthetic.main.activity_first_screen.*
 
 class FirstScreen : AppCompatActivity() {
@@ -18,12 +24,25 @@ class FirstScreen : AppCompatActivity() {
     private lateinit var mNoConnection: TextView
     private lateinit var mTryAgain: TextView
     private lateinit var mError: TextView
-    private var mProgress = 0
+    private lateinit var mViewModel: FirstScreenViewModel
+    private val PROGRESS_STATES = listOf(9, 24, 47, 62, 86, 100)
+    private var mIsSubscribed = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first_screen)
+        setupViewModel()
         bindActivity()
         connect()
+    }
+
+    private fun setupViewModel() {
+        mViewModel = ViewModelProviders.of(
+            this, ViewModelsFactory(
+                this.application, Repository.getInstance(
+                    DataBase.get(this.application), this.application
+                )
+            )
+        ).get(FirstScreenViewModel::class.java)
     }
 
     private fun connect() {
@@ -53,12 +72,14 @@ class FirstScreen : AppCompatActivity() {
         val billingResult = purchases.billingResult
         if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
             if (!purchases.purchasesList.isNullOrEmpty() && (purchases.purchasesList!![0].isAutoRenewing || purchases.purchasesList!![0].purchaseState == Purchase.PurchaseState.PURCHASED)) {
-                goToMainScreen()
+                mIsSubscribed = true
             } else {
-                goToWelcomeScreen()
+                mIsSubscribed = false
             }
+            mViewModel.increaseProgressState()
         } else {
             setErrorOccured()
+            mIsSubscribed = false
         }
 
     }
@@ -74,6 +95,17 @@ class FirstScreen : AppCompatActivity() {
             connect()
         }
         setTryToConnect()
+        mViewModel.progressState.observe(this) {
+            mProgressText.text = "${PROGRESS_STATES[it]}%"
+            mProgressBar.progress = PROGRESS_STATES[it]
+            if (it >= 4) {
+                if (mIsSubscribed) {
+                    goToMainScreen()
+                } else {
+                    goToWelcomeScreen()
+                }
+            }
+        }
     }
 
     private fun setNoConnection() {
@@ -90,8 +122,7 @@ class FirstScreen : AppCompatActivity() {
         mNoConnection.visibility = View.GONE
         mTryAgain.visibility = View.GONE
         mError.visibility = View.GONE
-        mProgress = 0
-        mProgressText.text = "$mProgress%"
+        mViewModel.resetProgressState()
     }
 
     private fun setErrorOccured() {

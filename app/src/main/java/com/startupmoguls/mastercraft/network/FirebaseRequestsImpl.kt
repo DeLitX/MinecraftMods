@@ -2,9 +2,19 @@ package com.startupmoguls.mastercraft.network
 
 import android.widget.ImageView
 import com.google.android.gms.tasks.Tasks
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import com.startupmoguls.mastercraft.GlideApp
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.launch
+import okhttp3.HttpUrl
+import okhttp3.OkHttpClient
+import okhttp3.Request
 import java.io.File
 
 class FirebaseRequestsImpl(private val mInteraction: FirebaseInteraction) : FirebaseRequests {
@@ -12,6 +22,13 @@ class FirebaseRequestsImpl(private val mInteraction: FirebaseInteraction) : Fire
     private val mJsons = mFirestore.collection("jsons")
     private val mCategoriesCollection = mFirestore.collection("categories")
     private val mStorage = FirebaseStorage.getInstance()
+    private val mRealtimeDB = FirebaseDatabase.getInstance()
+    private val mClient: OkHttpClient
+    private val DATABASE_BASE_URL = "mastercraft-74b2d.firebaseio.com"
+
+    init {
+        mClient = OkHttpClient.Builder().build()
+    }
 
 
     private fun getCategories(folderName: String, actionSave: (List<String>) -> Unit) {
@@ -26,45 +43,37 @@ class FirebaseRequestsImpl(private val mInteraction: FirebaseInteraction) : Fire
             }
     }
 
+    private suspend fun makeRequest(finalSegment:String,doAfter:(String)->Unit) {
+        val url = HttpUrl.Builder().scheme("https")
+            .host(DATABASE_BASE_URL)
+            .addPathSegment("$finalSegment.json")
+            .build()
+        val request = Request.Builder().url(url).build()
+        val call = mClient.newCall(request)
+        val response = call.execute()
+        if(response.isSuccessful){
+            val json=response.body?.string()
+            if(json!=null){
+                doAfter(json)
+                mInteraction.increaseProgressState()
+            }
+        }
+    }
+
 
     override fun getJSONs() {
-        mJsons.document("map").get().addOnSuccessListener {
-            if (it.exists()) {
-                val json = it.getString("json")
-                if (json != null) {
-                    mInteraction.saveMapJSON(json)
-                }
-            }
-        }.addOnFailureListener {
-            mInteraction.onError(it.toString())
-        }
-        mJsons.document("mod").get().addOnSuccessListener {
-            if (it.exists()) {
-                val json = it.getString("json")
-                if (json != null) {
-                    mInteraction.saveModJSON(json)
-                }
-            }
-        }.addOnFailureListener {
-            mInteraction.onError(it.toString())
-        }
-        mJsons.document("skin").get().addOnSuccessListener {
-            if (it.exists()) {
-                val json = it.getString("json")
-                if (json != null) {
-                    mInteraction.saveSkinJSON(json)
-                }
-            }
-        }.addOnFailureListener {
-            mInteraction.onError(it.toString())
+        CoroutineScope(IO).launch {
+            makeRequest("skins_list"){mInteraction.saveSkinJSON(it)}
+            makeRequest("mods_list"){mInteraction.saveModJSON(it)}
+            makeRequest("maps_list"){mInteraction.saveMapJSON(it)}
         }
     }
 
     override suspend fun loadFile(link: String, saveTo: File): Boolean {
-        if(saveTo.parentFile?.exists()!=true){
+        if (saveTo.parentFile?.exists() != true) {
             saveTo.parentFile?.mkdirs()
         }
-        if(!saveTo.exists()){
+        if (!saveTo.exists()) {
             saveTo.createNewFile()
         }
         var succeed = true
@@ -86,6 +95,7 @@ class FirebaseRequestsImpl(private val mInteraction: FirebaseInteraction) : Fire
         fun saveMapJSON(json: String)
         fun saveModJSON(json: String)
         fun saveSkinJSON(json: String)
+        fun increaseProgressState()
         fun onError(error: String)
     }
 }

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import com.startupmoguls.mastercraft.R
 import com.startupmoguls.mastercraft.ui.BaseFragment
 import com.startupmoguls.mastercraft.ui.adapters.WelcomeHeaderSwipeAdapter
+import kotlinx.android.synthetic.main.mod_layout.view.*
 import kotlinx.android.synthetic.main.welcome_screen3.*
 
 class WelcomeFragment3() : BaseFragment() {
@@ -32,5 +33,6 @@ class WelcomeFragment3() : BaseFragment() {
                 resources.getString(R.string.start_playing3)
             )
         )
+        tab_layout.setupWithViewPager(header)
     }
 }

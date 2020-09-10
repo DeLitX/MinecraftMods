@@ -48,9 +48,16 @@ class Repository private constructor(
     private val mModsDao: ModsDao = mDatabase.getModsDao()
     private val mMapsDao: MapsDao = mDatabase.getMapsDao()
     private val mSkinsDao: SkinsDao = mDatabase.getSkinsDao()
-    private val mFavouritesDao: FavouritesDao= mDatabase.getFavouritesDao()
+    private val mFavouritesDao: FavouritesDao = mDatabase.getFavouritesDao()
     private val mFirebaseRequests: FirebaseRequests = FirebaseRequestsImpl(this)
     private var mLanguage: String = Locale.getDefault().language
+    private var mCurrentProgressState = 0
+    val progressLiveData: MutableLiveData<Int> = MutableLiveData(mCurrentProgressState)
+
+    fun resetProgressState() {
+        mCurrentProgressState = 0
+        progressLiveData.postValue(mCurrentProgressState)
+    }
 
     val modCategories: MutableLiveData<List<Category>> = MutableLiveData(
         listOf(
@@ -424,33 +431,39 @@ class Repository private constructor(
 
     private fun String.decodeToSkinList(): List<Skin> {
         try {
-            val json = JSONArray(this)
+            var string = this.replace("null,", "")
+            string = string.replace(", null", "")
+            val json = JSONArray(string)
             val length = json.length()
             val result = mutableListOf<Skin>()
             for (i in 0 until length) {
-                val value = json[i]
-                if (value is JSONObject) {
-                    val filePath = try {
-                        "skins/" + value["file"]
-                    } catch (e: Exception) {
-                        //skipping because file path is primary part of item
-                        continue
-                    }.toString()
-                    val images: List<String> =
-                        value["images"].toString().decodeToImagesList("skins/")
-                    val category = try {
-                        value["category_def"].toString()
-                    } catch (e: java.lang.Exception) {
-                        ""
-                    }
-                    result.add(
-                        Skin(
-                            id = filePath,
-                            images = images,
-                            place = i,
-                            category = category
+                try {
+                    val value = json[i]
+                    if (value is JSONObject) {
+                        val filePath = try {
+                            "skins/" + value["file"]
+                        } catch (e: Exception) {
+                            //skipping because file path is primary part of item
+                            continue
+                        }.toString()
+                        val images: List<String> =
+                            value["images"].toString().decodeToImagesList("skins/")
+                        val category = try {
+                            value["category_def"].toString()
+                        } catch (e: java.lang.Exception) {
+                            ""
+                        }
+                        result.add(
+                            Skin(
+                                id = filePath,
+                                images = images,
+                                place = i,
+                                category = category
+                            )
                         )
-                    )
+                    }
+                } catch (e: java.lang.Exception) {
+
                 }
             }
             return result
@@ -526,6 +539,11 @@ class Repository private constructor(
         editor.putString(SKIN_SHARED_PREFS, json)
         editor.apply()
         recreateSkinDB()
+    }
+
+    override fun increaseProgressState() {
+        mCurrentProgressState++
+        progressLiveData.postValue(mCurrentProgressState)
     }
 
     fun openMap(map: Map) {

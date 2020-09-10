@@ -35,6 +35,24 @@
             android:textColor="#ffffff"
             android:textSize="@dimen/info_text_size"
             app:layout_constraintBottom_toBottomOf="parent" />
+        <LinearLayout
+            android:id="@+id/button_active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fully_rounded_corners_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/button"
+            android:layout_marginBottom="40dp"
+            android:visibility="invisible">
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/fully_rounded_corners"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_margin="2dp"
+                android:text="@string/Continue"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/info_text_size" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"

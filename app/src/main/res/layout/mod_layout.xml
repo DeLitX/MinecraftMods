@@ -44,14 +44,30 @@
             <include
                 layout="@layout/button_not_activated"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="@dimen/margin_border_a_little" />
             <include
                 layout="@layout/button_activated"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="@dimen/margin_border_a_little"
                 android:visibility="gone"/>
+            <LinearLayout
+                android:id="@+id/install_active"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/fully_rounded_corners_dark"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/fully_rounded_corners"
+                    android:text="@string/install"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/info_text_size" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/header"

@@ -3,6 +3,8 @@ package com.startupmoguls.mastercraft.ui.welcome
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.view.MotionEvent
 import android.view.View
 import android.widget.MediaController
 import android.widget.Toast
@@ -127,6 +129,17 @@ class WelcomeActivity : AppCompatActivity() {
                 }
             }
             steps++
+        }
+        button.setOnTouchListener { view, motionEvent ->
+            if(motionEvent.action==MotionEvent.ACTION_DOWN){
+                button_active.visibility=View.VISIBLE
+                button.visibility=View.INVISIBLE
+            }else if(motionEvent.action==MotionEvent.ACTION_UP){
+                button_active.visibility=View.INVISIBLE
+                button.visibility=View.VISIBLE
+                view.performClick()
+            }
+            true
         }
     }
 
