@@ -36,6 +36,7 @@
                     android:layout_height="match_parent" />
 
                 <include
+                    android:id="@+id/liked"
                     layout="@layout/like"
                     android:layout_width="32dp"
                     android:layout_height="32dp"

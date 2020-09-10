@@ -25,8 +25,8 @@ class SkinsScrollFragment : BaseScrollFragment<Skin>() {
 
     override val mItemsAdapter: ItemsAdapter<Skin> = ItemsAdapter(this, R.layout.skin_item)
     override fun setupItemsRecycler() {
-        mItemsRecycler.layoutManager = GridLayoutManager(this.context,2)
-        mItemsRecycler.adapter = mItemsAdapter
+        mItemsRecycler?.layoutManager = GridLayoutManager(this.context,2)
+        mItemsRecycler?.adapter = mItemsAdapter
     }
 
     override fun search(query: String) {

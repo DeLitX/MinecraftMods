@@ -25,8 +25,8 @@ class MapsScrollFragment : BaseScrollFragment<Map>() {
 
     override val mItemsAdapter: ItemsAdapter<Map> = ItemsAdapter(this, R.layout.mods_item)
     override fun setupItemsRecycler() {
-        mItemsRecycler.layoutManager = LinearLayoutManager(this.context)
-        mItemsRecycler.adapter = mItemsAdapter
+        mItemsRecycler?.layoutManager = LinearLayoutManager(this.context)
+        mItemsRecycler?.adapter = mItemsAdapter
     }
 
     override fun search(query: String) {

@@ -10,7 +10,11 @@ import com.startupmoguls.mastercraft.ui.BaseDetailFragment
 import com.startupmoguls.mastercraft.ui.adapters.ImagesViewPagerAdapter
 import com.startupmoguls.mastercraft.viewmodels.SkinsViewModel
 import com.startupmoguls.mastercraft.viewmodels.factory.ViewModelsFactory
+import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.mod_layout.view.*
+import kotlinx.android.synthetic.main.mods_item.*
+import kotlinx.android.synthetic.main.mods_item.liked
+import kotlinx.android.synthetic.main.skin_layout.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
@@ -23,8 +27,8 @@ class SkinsDetailFragment : BaseDetailFragment<Skin>() {
     override fun setupViewModel() {
         val viewModelFactory = ViewModelsFactory(
             requireActivity().application, Repository.getInstance(
-                DataBase.get(requireActivity().application)
-                ,requireActivity().application)
+                DataBase.get(requireActivity().application), requireActivity().application
+            )
         )
         mViewModel =
             ViewModelProviders.of(this, viewModelFactory).get(SkinsViewModel::class.java)
@@ -39,7 +43,7 @@ class SkinsDetailFragment : BaseDetailFragment<Skin>() {
     override fun setupFragmentUpdates(id: String) {
         CoroutineScope(IO).launch {
             val skin = (mViewModel as SkinsViewModel).getItem(id)
-            mItem=skin
+            mItem = skin
             withContext(Main) {
                 setupView(skin)
             }
@@ -47,13 +51,26 @@ class SkinsDetailFragment : BaseDetailFragment<Skin>() {
     }
 
     override fun setupView(item: Skin) {
-        if((mViewModel as SkinsViewModel).isSkinDownloaded(item)){
+        if ((mViewModel as SkinsViewModel).isSkinDownloaded(item)) {
             switchToInstall()
         }
         mPagerAdapter = ImagesViewPagerAdapter(this, item.images, R.layout.rounded_image_square)
-        mViewPager.adapter=mPagerAdapter
+        mViewPager.adapter = mPagerAdapter
         requireView().back.setOnClickListener {
             findNavController().popBackStack()
+        }
+        val isLiked: CircleImageView = requireView().findViewById(R.id.liked)
+        isLiked.setImageResource(if (item.isFavourite) R.drawable.ic_favorite_liked else R.drawable.ic_favorite_not_liked)
+        isLiked.setOnClickListener {
+            if (item.isFavourite) {
+                isLiked.setImageResource(R.drawable.ic_favorite_not_liked)
+                (mViewModel as SkinsViewModel).dislikeItem(item)
+                item.isFavourite=false
+            } else {
+                isLiked.setImageResource(R.drawable.ic_favorite_liked)
+                (mViewModel as SkinsViewModel).likeItem(item)
+                item.isFavourite=true
+            }
         }
 
     }
@@ -65,7 +82,7 @@ class SkinsDetailFragment : BaseDetailFragment<Skin>() {
     }
 
     override fun downloadItem(item: Skin) {
-        (mViewModel as SkinsViewModel).downloadSkin(item){switchToInstall()}
+        (mViewModel as SkinsViewModel).downloadSkin(item) { switchToInstall() }
     }
 
 

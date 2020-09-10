@@ -12,40 +12,40 @@
         android:layout_height="wrap_content"
         android:background="@color/transparent">
 
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_margin="@dimen/margin_border"
-                android:background="@drawable/fully_rounded_corners_accent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:tabIndicator="@drawable/fully_rounded_corners_dark"
-                app:tabIndicatorColor="@color/colorPrimaryDark"
-                app:tabIndicatorGravity="center"
-                app:tabIndicatorHeight="50dp"
-                app:tabRippleColor="@null"
-                app:tabSelectedTextColor="@color/colorPrimary"
-                app:tabTextColor="@color/colorPrimaryDark"
-                app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/margin_border"
+            android:background="@drawable/fully_rounded_corners_accent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways"
+            app:tabIndicator="@drawable/fully_rounded_corners_dark"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="50dp"
+            app:tabRippleColor="@null"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/colorPrimaryDark">
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mods" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mods" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/maps" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maps" />
 
-                <com.google.android.material.tabs.TabItem
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/skins" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skins" />
 
-            </com.google.android.material.tabs.TabLayout>
+        </com.google.android.material.tabs.TabLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
 

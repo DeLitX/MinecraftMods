@@ -5,9 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import androidx.core.view.marginStart
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
+import com.startupmoguls.mastercraft.R
 import com.startupmoguls.mastercraft.Repository
 import com.startupmoguls.mastercraft.data.database.DataBase
 import com.startupmoguls.mastercraft.ui.adapters.ItemsAdapter
@@ -17,12 +19,13 @@ import com.startupmoguls.mastercraft.viewmodels.factory.ViewModelsFactory
 abstract class BaseScrollFragment<T> : BaseFragment(), ItemsAdapter.ItemsInteraction<T> {
     internal var currentLiveData: LiveData<List<T>>? = null
     internal lateinit var v: View
-    internal lateinit var mItemsRecycler: RecyclerView
+    internal var mItemsRecycler: RecyclerView? = null
     internal abstract val mItemsAdapter: ItemsAdapter<T>
     internal var mViewModel: BaseCategoriesViewModel<T>? = null
     internal abstract val mViewModelClass: Class<out BaseCategoriesViewModel<T>>
     internal var isFavourites = false
     internal var isUpdate = true
+    private var isMakeMargin = false
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -60,6 +63,9 @@ abstract class BaseScrollFragment<T> : BaseFragment(), ItemsAdapter.ItemsInterac
 
     private fun bindFragment() {
         setupItemsRecycler()
+        if (isMakeMargin) {
+            marginHorizontal()
+        }
     }
 
     fun selectFavourites() {
@@ -67,6 +73,19 @@ abstract class BaseScrollFragment<T> : BaseFragment(), ItemsAdapter.ItemsInterac
             switchToLiveData(mViewModel!!.getFavourites())
         } else {
             isFavourites = true
+        }
+    }
+
+    fun marginHorizontal() {
+        if (mItemsRecycler != null) {
+            mItemsRecycler!!.setPadding(
+                resources.getDimension(R.dimen.margin_border).toInt(),
+                0,
+                resources.getDimension(R.dimen.margin_border).toInt(),
+                0
+            )
+        } else {
+            isMakeMargin = true
         }
     }
 

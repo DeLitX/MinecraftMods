@@ -56,7 +56,10 @@ class FavouriteFragment : BaseFragment() {
                 ModsScrollFragment(),
                 SkinsScrollFragment()
             ), this
-        ) { it.selectFavourites() }
+        ) {
+            it.selectFavourites()
+            it.marginHorizontal()
+        }
         mPager.adapter = mAdapter
         TabLayoutMediator(mTabs, mPager) { tab: TabLayout.Tab, position: Int ->
             tab.text = resources.getString(

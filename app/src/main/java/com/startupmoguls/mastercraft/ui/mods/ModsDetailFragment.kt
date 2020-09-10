@@ -7,8 +7,10 @@ import com.startupmoguls.mastercraft.data.database.DataBase
 import com.startupmoguls.mastercraft.pojo.Mod
 import com.startupmoguls.mastercraft.ui.BaseDetailFragment
 import com.startupmoguls.mastercraft.ui.adapters.ImagesViewPagerAdapter
+import com.startupmoguls.mastercraft.viewmodels.MapsViewModel
 import com.startupmoguls.mastercraft.viewmodels.ModsViewModel
 import com.startupmoguls.mastercraft.viewmodels.factory.ViewModelsFactory
+import de.hdodenhof.circleimageview.CircleImageView
 import kotlinx.android.synthetic.main.mod_layout.view.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
@@ -55,6 +57,19 @@ class ModsDetailFragment : BaseDetailFragment<Mod>() {
         requireView().description.text = item.description
         requireView().back.setOnClickListener {
             requireActivity().onBackPressed()
+        }
+        val isLiked: CircleImageView = requireView().findViewById(R.id.liked)
+        isLiked.setImageResource(if (item.isFavourite) R.drawable.ic_favorite_liked else R.drawable.ic_favorite_not_liked)
+        isLiked.setOnClickListener {
+            if (item.isFavourite) {
+                isLiked.setImageResource(R.drawable.ic_favorite_not_liked)
+                (mViewModel as ModsViewModel).dislikeItem(item)
+                item.isFavourite=false
+            } else {
+                isLiked.setImageResource(R.drawable.ic_favorite_liked)
+                (mViewModel as ModsViewModel).likeItem(item)
+                item.isFavourite=true
+            }
         }
     }
 
